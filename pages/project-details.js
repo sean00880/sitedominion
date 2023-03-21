@@ -14,7 +14,7 @@ const ProjectsDetails = () => {
       <section className="project-details-area pt-130 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-            <h2>Grandpa Ron's LLC - Landscaping Business in Columbus, Ohio</h2>
+            <h2>Grandpa Ron&apos;s LLC - Landscaping Business in Columbus, Ohio</h2>
             <span className="sub-title-two">Landscaping</span>
           </div>
           <div className="details-image mb-55 wow fadeInUp delay-0-3s">
