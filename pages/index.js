@@ -6,7 +6,23 @@ import ClientsFeedback from "../src/components/home1/ClientsFeedback";
 import Hero1 from "../src/components/home1/Hero1";
 import RecentProjects from "../src/components/home1/RecentProjects";
 import Layout from "../src/layout/Layout";
+import Zoom from "react-reveal/Zoom";
+import Flip from "react-reveal/Flip";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import config from 'react-reveal/globals';
+import { Icon } from '@iconify/react';
+import React,{useEffect} from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+config({ ssrFadeout: true });
 const Index = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <Fragment>
       <Head>
@@ -23,103 +39,36 @@ const Index = () => {
         <Hero1 />
         {/* Slider Section End */}
         {/* Core Feature start */}
-        <section className="feature-area-five bgc-lighter pt-100 pb-70">
-          <div className="container">
-            <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-10">Core Features</span>
-              <h2>Our amazing website features</h2>
-            </div>
-            <div className="row row-cols-xl-6 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
-              <div className="col wow fadeInUp delay-0-2s">
-                <div className="feature-item-five">
-                  <i className="flaticon-responsive" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Responsive On All Devices</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              <div className="col wow fadeInUp delay-0-3s">
-                <div className="feature-item-five">
-                  <i className="flaticon-feature" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Impactful Custom Design</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              <div className="col wow fadeInUp delay-0-4s">
-                <div className="feature-item-five">
-                  <i className="flaticon-aim" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Prioritization On Conversions</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              <div className="col wow fadeInUp delay-0-5s">
-                <div className="feature-item-five">
-                  <i className="flaticon-seo" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Search Engine Optimized</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              <div className="col wow fadeInUp delay-0-6s">
-                <div className="feature-item-five">
-                  <i className="flaticon-search-location" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Flexible Global Support</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              <div className="col wow fadeInUp delay-0-7s">
-                <div className="feature-item-five">
-                  <i className="flaticon-settings" />
-                  <h5>
-                    <Link href="/service-details">
-                      <a>Luxurious User Experience</a>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
         {/* Core Feature end */}
         {/* About Us Area start */}
         <section className="about-area-one pt-130 pb-125 rel z-1">
           <div className="container">
             <div className="row justify-content-between align-items-center">
               <div className="col-lg-5">
-                <div className="about-image-one bg-squire-shape rmb-85 wow fadeInUp delay-0-2s">
-                  <img src="assets/images/about/about-one.png" alt="About us" />
-                  <img
-                    className="image-left"
-                    src="assets/images/shapes/image-left.png"
-                    alt="shape"
-                  />
+                <div className="about-image-one bg-squire-shape rmb-85 delay-0-2s">
+                  
+                  <img src="assets/images/about/about-one.png" alt="About us" data-aos="zoom-in" data-aos-duration="1000"/>
+                  
+                  <img src="assets/images/about/about-three.png" alt="About us" data-aos="fade-left" data-aos-duration="1000" />
+                  
+
                 </div>
               </div>
+             
               <div className="col-xl-6 col-lg-7">
-                <div className="about-content-one wow fadeInUp delay-0-4s">
-                  <div className="section-title mb-45">
+                <div className="about-content-one delay-0-4s wow fadeInRight">
+                  <div className="section-title mb-45" data-aos="fade-left" data-aos-duration="1000">
                     <span className="sub-title mb-15">
                       About Us
                     </span>
                     <h2>Discover Site Dominion LLC: Your Trusted Partner for Exceptional Website Solutions</h2>
                   </div>
-                  <ul className="list-style-one">
-                    <li>
-                      <div className="content">
-                        <h4>Company Mission</h4>
+                  <ul>
+                    <li >
+                      <div className="content" data-aos="fade-up" data-aos-duration="1000">
+                        
+                        <h4><img src="assets/images/mission.png" alt="" /> Our Mission</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -127,9 +76,10 @@ const Index = () => {
                         </p>
                       </div>
                     </li>
-                    <li>
-                      <div className="content">
-                        <h4>Company Vision</h4>
+                    
+                    <li >
+                      <div className="content" data-aos="fade-up" data-aos-duration="1000">
+                        <h4><img src="assets/images/vision.png" alt="" /> Our Vision</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -137,9 +87,9 @@ const Index = () => {
                         </p>
                       </div>
                     </li>
-                    <li>
-                      <div className="content">
-                        <h4>Our Philosophy</h4>
+                    <li >
+                      <div className="content" data-aos="fade-up" data-aos-duration="1000">
+                        <h4><img src="assets/images/values.png" alt="" /> Our Values</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -147,9 +97,11 @@ const Index = () => {
                         </p>
                       </div>
                     </li>
+                  
                   </ul>
                 </div>
               </div>
+              
             </div>
           </div>
         </section>
@@ -159,31 +111,55 @@ const Index = () => {
           <div className="container">
             <div className="row justify-content-between align-items-center">
               <div className="col-lg-7">
-                <div className="statistics-three-content rmb-65 wow fadeInRight delay-0-2s">
+                <div className="statistics-three-content rmb-65 delay-0-2s">
                   <div className="row justify-content-center justify-content-xl-start">
-                    <div className="section-title mb-45">
+                    <div className="section-title mb-45" data-aos="fade-right" data-aos-duration="1000">
                       <span className="sub-title mb-15">Why Choose Us</span>
                     <h2>Replace this</h2>
                     </div> 
-                    <p>We offer unique website solutions that will engage visitors and improve your online presence.</p>
-                  </div>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                      
+                    <h3><img src="assets/images/custom.png" alt="" /> Custom Websites</h3>
+                    <p>We have the knowledge and experience necessary to make your ideas a reality, whether you need a custom website, a web application, or a mobile app. We take the time to comprehend your business objectives and customize our solutions to match your particular requirements, ensuring that you receive the ideal outcomes.</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                    <h3><img src="assets/images/partner.png" alt="" />Collaboration</h3>
+<p>We at Site Dominion are firm believers in the value of teamwork. In order to ensure that our clients' vision is fulfilled and their expectations are met, we work closely with them throughout the whole development process. We develop websites that not only look amazing but also function well, with an emphasis on user experience, responsive design, and search engine optimization.</p>
+</div>
+<div data-aos="fade-left" data-aos-duration="1000">
+<h3><img src="assets/images/pricing.png" alt="" />Affordability</h3>
+<p>Compared to the average business website in the USA, which can cost anywhere from $2,000 to $10,000 or more, our prices are highly competitive. But we don't compromise on quality. Our team of expert developers uses the latest technologies and best practices to create websites that not only look great but also perform well.</p>
+</div>
+<div data-aos="fade-left" data-aos-duration="1000">
+<h3><img src="assets/images/value.png" alt="" />Value</h3>
+<p>So why pick us? Because we are committed to generating results that have a significant impact on your business and are passionate about what we do. To find out how we can assist you in achieving your online objectives, get in touch with us right away.</p>
+</div>
+
+                    </div>
+                    
                 </div>
+                
               </div>
               <div className="col-lg-5">
-                <div className="statistics-three-image bg-squire-shape mb-30 wow fadeInLeft delay-0-3s">
+                <div className="statistics-three-image bg-squire-shape mb-30 delay-0-3s">
+                
                   <img
                     src="assets/images/about/main-img1.png"
                     alt="Statictics"
+                    data-aos="fade-right" data-aos-duration="1000"
                   />
+                  
+                  
                   <img
                     src="assets/images/about/phones.png"
                     alt="Statictics"
+                    data-aos="flip-left" data-aos-duration="1000"
                   />
-                  <img
-                    className="image-right"
-                    src="assets/images/shapes/image-right.png"
-                    alt="shape"
-                  />
+                 
+                  
+                  <img src="assets/images/about/about-two.png" alt="About us" data-aos="fade-right" data-aos-duration="1000" />
+                  
+
                 </div>
               </div>
             </div>
@@ -193,9 +169,9 @@ const Index = () => {
         {/* Design Featured Start */}
         <section className="design-feature-area overflow-hidden pt-130 pb-100 text-white bgc-black-with-lighting rel z-1">
           <div className="container">
-            <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-10">Core Design Featured</span>
-              <h2>What we provider for website</h2>
+            <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s" data-aos="zoom-in-up" data-aos-duration="1000">
+              <span className="sub-title mb-10">Functionality</span>
+              <h2>Each Website Includes:</h2>
             </div>
             <div className="row no-gap align-items-center">
               <div className="col-lg-3">
@@ -209,7 +185,7 @@ const Index = () => {
                         <div className="content">
                           <h4>
                             <Link href="/service-details">
-                              <a>Website Creation from Scratch</a>
+                              <a>Website Design & Development</a>
                             </Link>
                           </h4>
                           <Link href="/service-details">
@@ -228,7 +204,7 @@ const Index = () => {
                         <div className="content">
                           <h4>
                             <Link href="/service-details">
-                              <a>Website maintenance Services</a>
+                              <a>Full Deployment (Domain & Hosting)</a>
                             </Link>
                           </h4>
                           <Link href="/service-details">
@@ -254,6 +230,7 @@ const Index = () => {
                       className="round"
                       src="assets/images/features/feature-middle.png"
                       alt="Feature Middle"
+                      data-aos="zoom-in-up" data-aos-duration="1000"
                     />
                   </div>
                   <div className="row">
@@ -265,7 +242,7 @@ const Index = () => {
                         <div className="content">
                           <h4>
                             <Link href="/service-details">
-                              <a>eCommerce and product selling</a>
+                              <a>E-commerce Functionality *</a>
                             </Link>
                           </h4>
                           <Link href="/service-details">
@@ -284,7 +261,7 @@ const Index = () => {
                         <div className="content">
                           <h4>
                             <Link href="/service-details">
-                              <a>Responsive websites (UI/UX) design</a>
+                              <a>Best Programming Practices Followed</a>
                             </Link>
                           </h4>
                           <Link href="/service-details">
@@ -328,7 +305,7 @@ const Index = () => {
                         <div className="content">
                           <h4>
                             <Link href="/service-details">
-                              <a>User Experience and Design</a>
+                              <a>Luxurious User Experience</a>
                             </Link>
                           </h4>
                           <Link href="/service-details">
@@ -356,19 +333,21 @@ const Index = () => {
               alt="Shape"
             />
           </div>
+
+          <p style={{textAlign:"center"}}>*Available with our Pro Package. Subject to business licensing and EIN.</p>
         </section>
         {/* Design Featured End */}
         {/* Project Area start */}
-        <RecentProjects />
+        
         {/* Project Area end */}
         {/* Working Process Area start */}
-        <section className="work-process-area pb-95 rel z-1">
+        <section className="work-process-area pt-130 pb-95 rel z-1">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Working Process</span>
-                  <h2>How does we works</h2>
+                  <h2>Our 4-Step Process</h2>
                 </div>
               </div>
             </div>
@@ -378,9 +357,9 @@ const Index = () => {
                   <div className="work-process-item mt-30 wow fadeInUp delay-0-2s">
                     <div className="icon">
                       <span className="number">01</span>
-                      <i className="flaticon-optimization" />
+                      <i className="flaticon-data" />
                     </div>
-                    <h4>Info Gathering</h4>
+                    <h4>Industry Research</h4>
                     <p>
                       Sit amet consectetur adipiscing elit sed eiusmod tempor
                     </p>
@@ -390,9 +369,9 @@ const Index = () => {
                   <div className="work-process-item wow fadeInUp delay-0-4s">
                     <div className="icon">
                       <span className="number">02</span>
-                      <i className="flaticon-link" />
+                      <i className="flaticon-design" />
                     </div>
-                    <h4>Idea Planning</h4>
+                    <h4>Collaborative Design</h4>
                     <p>
                       Sit amet consectetur adipiscing elit sed eiusmod tempor
                     </p>
@@ -402,9 +381,9 @@ const Index = () => {
                   <div className="work-process-item mt-55 wow fadeInUp delay-0-6s">
                     <div className="icon">
                       <span className="number">03</span>
-                      <i className="flaticon-data" />
+                      <i className="flaticon-optimization" />
                     </div>
-                    <h4>Design Analysis</h4>
+                    <h4>Project Optimization</h4>
                     <p>
                       Sit amet consectetur adipiscing elit sed eiusmod tempor
                     </p>
@@ -416,7 +395,7 @@ const Index = () => {
                       <span className="number">04</span>
                       <i className="flaticon-star" />
                     </div>
-                    <h4>Testing &amp; Lunch</h4>
+                    <h4>Testing &amp; Launch</h4>
                     <p>
                       Sit amet consectetur adipiscing elit sed eiusmod tempor
                     </p>
@@ -475,7 +454,9 @@ const Index = () => {
         </section>
         {/* CTA Area end */}
         {/* Pricing Two Area start */}
-        <section className="pricing-area-two bgc-lighter pt-240 pb-100 rel z-1">
+        <RecentProjects />
+        
+        <section className="features-area pricing-area-two bgc-lighter pt-135 pb-120 rel z-1">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10">
@@ -485,25 +466,41 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-6">
+            <Tabs defaultIndex={0}>
+              <TabList style={{"borderRadius":"1vh 1vh 0 0"}}>
+            
+                <Tab> Monthly</Tab> 
+                <Tab>One-Time</Tab> 
+                
+              </TabList>
+              <div className="row">
+              
+                <TabPanel >
+                <section className=" pricing-area-two bgc-lighter rel z-1">
+          <div className="container" style={{"background":"#17171a","borderRadius":"0 0 1vh 1vh"}}>
+            <div className="row" >
+              <div className="col-lg-6" >
                 <div className="pricing-item-two wow fadeInUp delay-0-2s">
                   <h4 className="title">Basic Plan</h4>
-                  <span className="badge">popular package</span>
+                  
                   <div className="pricing-inner">
-                    <ul className="list-style-two">
-                      <li>Landing page design (10 pages)</li>
-                      <li>HTML+CSS design (12 pages)</li>
-                      <li>Social Media Marketing</li>
-                      <li>Domin hosting provider</li>
-                      <li>Online support (24/7)</li>
+                    <ul>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Unlimited Pages</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
+                      
                     </ul>
-                    <div className="price-and-btn">
+                    <div className="price-and-btn price-and-btn">
                       <div className="content">
-                        <span className="price">248</span>
-                        <span className="save">
-                          Save<span> 25%</span>
-                        </span>
+                        <span className="price">59.99</span>
+                        
                         <Link href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
@@ -518,21 +515,25 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="pricing-item-two wow fadeInUp delay-0-4s">
                   <h4 className="title">Standard plan</h4>
-                  <span className="badge">popular package</span>
+                  
                   <div className="pricing-inner">
-                    <ul className="list-style-two">
-                      <li>Landing page design (10 pages)</li>
-                      <li>HTML+CSS design (12 pages)</li>
-                      <li>Social Media Marketing</li>
-                      <li>Domin hosting provider</li>
-                      <li>Online support (24/7)</li>
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
                     </ul>
                     <div className="price-and-btn">
                       <div className="content">
-                        <span className="price">352</span>
-                        <span className="save">
-                          Save<span> 25%</span>
-                        </span>
+                        <span className="price">69.99</span>
+                        
                         <Link href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
@@ -546,22 +547,27 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="pricing-item-two wow fadeInUp delay-0-2s">
-                  <h4 className="title">golder Plan</h4>
+                  <h4 className="title">Gold Plan</h4>
                   <span className="badge">popular package</span>
+                   
                   <div className="pricing-inner">
-                    <ul className="list-style-two">
-                      <li>Landing page design (10 pages)</li>
-                      <li>HTML+CSS design (12 pages)</li>
-                      <li>Social Media Marketing</li>
-                      <li>Domin hosting provider</li>
-                      <li>Online support (24/7)</li>
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
                     </ul>
                     <div className="price-and-btn">
                       <div className="content">
-                        <span className="price">583</span>
-                        <span className="save">
-                          Save<span> 25%</span>
-                        </span>
+                        <span className="price">79.99</span>
+                        
                         <Link href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
@@ -575,22 +581,25 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="pricing-item-two wow fadeInUp delay-0-4s">
-                  <h4 className="title">platinum Plan</h4>
-                  <span className="badge">popular package</span>
+                  <h4 className="title">Diamond Plan</h4>
+                  
                   <div className="pricing-inner">
-                    <ul className="list-style-two">
-                      <li>Landing page design (10 pages)</li>
-                      <li>HTML+CSS design (12 pages)</li>
-                      <li>Social Media Marketing</li>
-                      <li>Domin hosting provider</li>
-                      <li>Online support (24/7)</li>
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Lead Generation API</li>
                     </ul>
                     <div className="price-and-btn">
                       <div className="content">
-                        <span className="price">834</span>
-                        <span className="save">
-                          Save<span> 25%</span>
-                        </span>
+                        <span className="price">89.99</span>
+                       
                         <Link href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
@@ -603,6 +612,176 @@ const Index = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="pricing-shapes">
+            <img
+              className="shape dots"
+              src="assets/images/shapes/pricing-bg-dots.png"
+              alt="Shape"
+            />
+            <img
+              className="shape wave"
+              src="assets/images/shapes/pricing-wave-line.png"
+              alt="Shape"
+            />
+          </div>
+        </section>
+                </TabPanel>
+                <TabPanel>
+                <section className=" pricing-area-two bgc-lighter rel z-1">
+          <div className="container" style={{"background":"#17171a","borderRadius":"0 0 1vh 1vh"}}>
+            <div className="row" >
+              <div className="col-lg-6" >
+                <div className="pricing-item-two wow fadeInUp delay-0-2s">
+                  <h4 className="title">Basic Plan</h4>
+                  
+                  <div className="pricing-inner">
+                    <ul>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Unlimited Pages</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
+                      
+                    </ul>
+                    <div className="price-and-btn price-and-btn2">
+                      <div className="content">
+                        <span className="price">599.99</span>
+                        
+                        <Link href="/pricing">
+                          <a className="theme-btn style-three">
+                            Choose Package{" "}
+                            <i className="fas fa-angle-double-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="pricing-item-two wow fadeInUp delay-0-4s">
+                  <h4 className="title">Standard plan</h4>
+                  
+                  <div className="pricing-inner">
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
+                    </ul>
+                    <div className="price-and-btn price-and-btn2">
+                      <div className="content">
+                        <span className="price">699.99</span>
+                        <Link href="/pricing">
+                          <a className="theme-btn style-three">
+                            Choose Package{" "}
+                            <i className="fas fa-angle-double-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="pricing-item-two wow fadeInUp delay-0-2s">
+                  <h4 className="title">Gold Plan</h4>
+                  <span className="badge">popular package</span>
+                   
+                  <div className="pricing-inner">
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:x-circle" color="red" width="25" height="25" />Lead Generation API</li>
+                    </ul>
+                    <div className="price-and-btn price-and-btn2">
+                      <div className="content">
+                        <span className="price">799.99</span>
+                        <Link href="/pricing">
+                          <a className="theme-btn style-three">
+                            Choose Package{" "}
+                            <i className="fas fa-angle-double-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="pricing-item-two wow fadeInUp delay-0-4s">
+                  <h4 className="title">Diamond Plan</h4>
+                  
+                  <div className="pricing-inner">
+                    <ul>
+                    <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />
+                          Website Design + Development</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Deployment</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />On-page SEO</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Multiple Revisions</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Mobile Responsive</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Unlimited Pages</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Website Copywriting</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Blog</li>
+                      <li><Icon icon="bx:check-circle" color="green" width="25" height="25" />Lead Generation API</li>
+                    </ul>
+                    <div className="price-and-btn price-and-btn2">
+                      <div className="content">
+                        <span className="price">899.99</span>
+                        <Link href="/pricing">
+                          <a className="theme-btn style-three">
+                            Choose Package{" "}
+                            <i className="fas fa-angle-double-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pricing-shapes">
+            <img
+              className="shape dots"
+              src="assets/images/shapes/pricing-bg-dots.png"
+              alt="Shape"
+            />
+            <img
+              className="shape wave"
+              src="assets/images/shapes/pricing-wave-line.png"
+              alt="Shape"
+            />
+          </div>
+        </section>
+        </TabPanel>
+              
+              
+
+                    </div>
+                    </Tabs>
+           
           </div>
           <div className="pricing-shapes">
             <img

@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
+import '../styles/boxicons.min.css';
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);

@@ -4336,6 +4336,7 @@ h6, .h6 {
   position: absolute; }
 
 .slider-shapes .circle {
+  display: none;
   top: 20%;
   left: 5%;
   -webkit-animation: shapeAnimationThree 40s infinite;
@@ -4436,6 +4437,10 @@ h6, .h6 {
   -webkit-animation: down-up-one 10s infinite;
   animation: down-up-one 10s infinite; }
 
+
+  .about-content-one img{
+    width: 50px;
+  }
 .about-content-one .list-style-one li {
   position: relative; }
   .about-content-one .list-style-one li:not(:last-child) {
@@ -4444,16 +4449,16 @@ h6, .h6 {
     border-bottom: 1px solid rgba(0, 102, 255, 0.1); }
   @media only screen and (min-width: 376px) {
     .about-content-one .list-style-one li p {
-      font-size: 23px; } }
+      font-size: 27px; } }
   .about-content-one .list-style-one li:before {
     content: '';
     width: 40px;
-    height: 40px;
-    margin-right: 40px; }
+    height: 40px; }
     @media only screen and (max-width: 375px) {
       .about-content-one .list-style-one li:before {
         margin-right: 25px; } }
-  .about-content-one .list-style-one li:after {
+  .about-content-one .list-style-one li:after{
+    display:none;
     content: '';
     width: 40px;
     height: 40px;
@@ -4463,6 +4468,12 @@ h6, .h6 {
     border-radius: 50%;
     border: 1px solid #293043; }
 
+    .statistics-three-content h3{
+      font-style: italic;
+    }
+    .statistics-three-content h3 img{
+      width: 100px;
+    }
 .bg-squire-shape {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -6009,7 +6020,23 @@ h6, .h6 {
     .price-and-btn .price:after {
       color: white;
       font-size: 18px;
-      content: '/monthly'; }
+      content: '/month'; }
+      .price-and-btn2 .content{
+        align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+      .price-and-btn .content{
+        align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+      .price-and-btn2 .price:after {
+        color: white;
+        font-size: 18px;
+        content: ''; }
   .price-and-btn .save {
     display: block;
     font-size: 18px;
@@ -6093,9 +6120,8 @@ h6, .h6 {
     position: absolute;
     top: 0;
     right: 0;
-    opacity: 0;
-    width: 250px;
-    font-size: 16px;
+    width: 300px;
+    font-size: 21px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -6104,9 +6130,10 @@ h6, .h6 {
     text-transform: uppercase;
     background: #b94245;
     padding: 15px 20px 12px 40px;
-    -webkit-transform: rotate(30deg) translate(45px, -100px);
-    -ms-transform: rotate(30deg) translate(45px, -100px);
-    transform: rotate(30deg) translate(45px, -100px); }
+    opacity: 1;
+    -webkit-transform: rotate(30deg) translate(45px, 0);
+    -ms-transform: rotate(30deg) translate(45px, 0);
+    transform: rotate(30deg) translate(45px, 0);}
     @media only screen and (max-width: 375px) {
       .pricing-item-two .badge {
         font-size: 12px; } }
@@ -6120,6 +6147,15 @@ h6, .h6 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+    .pricing-item-two .pricing-inner ul{
+      font-size: 27px;
+    }
+    .pricing-item-two .pricing-inner ul li{
+      margin: 0 0 10px
+    }
+    .pricing-item-two .pricing-inner ul li svg{
+      margin-right: 10px
+    }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .pricing-item-two .pricing-inner {
         display: block; } }
@@ -6128,7 +6164,7 @@ h6, .h6 {
         display: block; } }
     @media only screen and (min-width: 376px) {
       .pricing-item-two .pricing-inner .list-style-two {
-        font-size: 20px; } }
+        font-size: 27px; } }
     .pricing-item-two .pricing-inner .price-and-btn {
       padding: 0;
       width: auto;
@@ -6146,6 +6182,8 @@ h6, .h6 {
           -ms-flex-pack: start;
           justify-content: flex-start; } }
       .pricing-item-two .pricing-inner .price-and-btn .price {
+        font-family: 'smooch sans';
+        letter-spacing: 1px;
         font-weight: 600;
         color: #b94245; }
         .pricing-item-two .pricing-inner .price-and-btn .price:after {
@@ -6644,7 +6682,7 @@ h6, .h6 {
       transform: scale(0);
       border: 2px dashed #01c9f5; }
   .work-process-item p {
-    font-size: 18px; }
+    font-size: 27px; }
   .work-process-item:hover .icon i {
     background: #01c9f5; }
   .work-process-item:hover .icon:before {
@@ -6674,6 +6712,7 @@ h6, .h6 {
 /*******************************************************/
 .cta-inner {
   margin-top: -110px;
+  margin-bottom: 120px;
   z-index: 1;
   position: relative;
   -webkit-transform: translateY(110px);
@@ -8371,3 +8410,75 @@ h4.comment-title {
     background: transparent; }
   .dark-version.home-one .main-footer {
     background: #1e1e22; }
+
+
+    .features-area .react-tabs .react-tabs__tab-list {
+      text-align: center;
+      padding: 0 0 10px;
+      line-height: 4;
+      background: #1d1c1c;
+      /* margin: 1vh; */
+      margin: 0;
+      border-radius: 0;
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list:nth-child(3){
+      border-radius: 0;
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li {
+      display: inline-block;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      position: relative;
+      margin-left: 2vh;
+      margin-right: 2vh;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 23px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-family:'Smooch Sans', sans-serif;
+      
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -12px;
+      width: 0;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      height: 2px;
+      background: linear-gradient(to left top, #ffffff, #999999, #daddda, #f1383d, #252323);
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li:hover, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus-visible {
+      color: #6383aa;
+      outline: 0;
+        font-style: italic;
+        transition: .4s;
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li:hover::before, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus::before, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus-visible::before {
+      width: 100%;
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected {
+      color: #e6e1e1;
+        font-style: italic;
+        transition: .4s;
+    }
+    
+    .col-lg-12 .single-features{
+      background: #ffffff;
+    }
+    
+    .react-tabs__tab-panel .react-tabs__tab-panel--selected{
+      padding: 0;
+    }
+    
+    .features-area .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected::before {
+      width: 100%;
+    }
