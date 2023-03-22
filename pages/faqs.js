@@ -128,7 +128,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -145,7 +145,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -162,7 +162,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -179,7 +179,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -196,7 +196,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -213,7 +213,7 @@ const Faq = () => {
                   Start building your first prototypeno time Ogency intuitive,
                   drag drop interface gives building blocks that you needs
                 </p>
-                <Link href="/service-details">
+                <Link legacyBehavior  href="/service-details">
                   <a className="theme-btn style-three">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -235,7 +235,7 @@ const Faq = () => {
               </div>
             </div>
             <div className="col-lg-4 text-lg-end wow fadeInUp delay-0-4s">
-              <Link href="/contact">
+              <Link legacyBehavior  href="/contact">
                 <a className="theme-btn style-three mb-55">
                   Add Questions <i className="fas fa-angle-double-right" />
                 </a>

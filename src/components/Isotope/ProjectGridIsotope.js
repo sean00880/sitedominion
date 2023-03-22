@@ -100,7 +100,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -109,7 +109,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Saas Landing PSD <br />
                     Template
@@ -127,7 +127,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -136,7 +136,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Fintex- eWallet PSD <br />
                     Template
@@ -154,7 +154,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -163,7 +163,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Job Finding Mobile <br />
                     Applications
@@ -181,7 +181,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -190,7 +190,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Oxence Website design <br />
                     development Template
@@ -208,7 +208,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -217,7 +217,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content business">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Web Design Landing <br />
                     PSD Template
@@ -235,7 +235,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -244,7 +244,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Social Media Marketing <br />
                     Web Template
@@ -262,7 +262,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -271,7 +271,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Oxence Website development <br />
                     Services Template
@@ -289,7 +289,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -298,7 +298,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Becoach Education &amp; Coach <br />
                     Web Template
@@ -316,7 +316,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -325,7 +325,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     University College <br />
                     Web Template
@@ -343,7 +343,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -352,7 +352,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Fintex Business Corporate <br />
                     Website Template
@@ -370,7 +370,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -379,7 +379,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content business">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Doctio Medical Health <br />
                     Website Template
@@ -397,7 +397,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -406,7 +406,7 @@ const ProjectGridIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="project-details">
+                <Link legacyBehavior  href="project-details">
                   <a>
                     Dental Care Creative <br />
                     Web Template

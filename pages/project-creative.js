@@ -27,7 +27,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>
@@ -45,7 +45,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>
@@ -75,7 +75,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>
@@ -93,7 +93,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>
@@ -123,7 +123,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>
@@ -141,7 +141,7 @@ const ProjectsCreative = () => {
                 Start from scratch or choose over 500 designer made template
                 that you can customize usinghe drag and drop website buildersite
               </p>
-              <Link href="/project-details">
+              <Link legacyBehavior  href="/project-details">
                 <a className="theme-btn style-three">
                   Project Details <i className="fas fa-angle-double-right" />
                 </a>

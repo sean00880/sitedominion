@@ -84,17 +84,17 @@ const ProjectsDetails = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/project-details">Dashboard Design</Link>
+                  <Link legacyBehavior  href="/project-details">Dashboard Design</Link>
                 </h5>
                 <span className="category">Creative, Branding</span>
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="read-more">
                     View Details <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
             </div>
-            <Link href="/projects">
+            <Link legacyBehavior  href="/projects">
               <a className="show-all">
                 <i className="far fa-ellipsis-h" />
                 <i className="far fa-ellipsis-h" />
@@ -110,10 +110,10 @@ const ProjectsDetails = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/project-details">Creative Pattern</Link>
+                  <Link legacyBehavior  href="/project-details">Creative Pattern</Link>
                 </h5>
                 <span className="category">Mokeup, Branding</span>
-                <Link href="/project-details">
+                <Link legacyBehavior  href="/project-details">
                   <a className="read-more">
                     View Details <i className="far fa-arrow-right" />
                   </a>

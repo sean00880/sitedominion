@@ -114,7 +114,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">29.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -145,7 +145,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">58.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -176,7 +176,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">37.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -207,7 +207,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">29.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -238,7 +238,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">58.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -269,7 +269,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">37.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -300,7 +300,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">29.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -331,7 +331,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">58.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -362,7 +362,7 @@ const ShopIsotope = () => {
               </div>
               <div className="price-details-btn">
                 <span className="price">37.55</span>
-                <Link href="/product-details">
+                <Link legacyBehavior  href="/product-details">
                   <a className="theme-btn">
                     Details <i className="fas fa-angle-double-right" />
                   </a>

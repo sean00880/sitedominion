@@ -35,7 +35,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       How To Build Group Chat App With Vanilla JS, Twilio And
                       Node.js
                     </Link>
@@ -44,7 +44,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -75,7 +75,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Smashing Podcast Episode 47 With Sara Soueidan Does
                       Accessibility
                     </Link>
@@ -84,7 +84,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -115,7 +115,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Manage Accessible Design System With CSS Color-Contrast
                     </Link>
                   </h5>
@@ -123,7 +123,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -154,7 +154,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       How To Build Group Chat App With Vanilla JS, Twilio And
                       Node.js
                     </Link>
@@ -163,7 +163,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -194,7 +194,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Smashing Podcast Episode 47 With Sara Soueidan Does
                       Accessibility
                     </Link>
@@ -203,7 +203,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -234,7 +234,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Manage Accessible Design System With CSS Color-Contrast
                     </Link>
                   </h5>
@@ -242,7 +242,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -273,7 +273,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       How To Build Group Chat App With Vanilla JS, Twilio And
                       Node.js
                     </Link>
@@ -282,7 +282,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -313,7 +313,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Smashing Podcast Episode 47 With Sara Soueidan Does
                       Accessibility
                     </Link>
@@ -322,7 +322,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -353,7 +353,7 @@ const Blog = () => {
                     </li>
                   </ul>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Manage Accessible Design System With CSS Color-Contrast
                     </Link>
                   </h5>
@@ -361,7 +361,7 @@ const Blog = () => {
                     Sit amet consectetur adipiscin eiusmod temor incididunt
                     labore dolore magnaes epse
                   </p>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>

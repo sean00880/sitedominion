@@ -108,9 +108,9 @@ const SingleBlog = () => {
                 <div className="item">
                   <h5>Tags</h5>
                   <div className="tag-coulds">
-                    <Link href="/blog">Course</Link>
-                    <Link href="/blog">Design</Link>
-                    <Link href="/blog">marketing</Link>
+                    <Link legacyBehavior  href="/blog">Course</Link>
+                    <Link legacyBehavior  href="/blog">Design</Link>
+                    <Link legacyBehavior  href="/blog">marketing</Link>
                   </div>
                 </div>
                 <div className="item">
@@ -144,27 +144,27 @@ const SingleBlog = () => {
                       qui dolorem eum fugiat quo voluptas
                     </p>
                     <div className="social-style-three">
-                      <Link href="/contact">
+                      <Link legacyBehavior  href="/contact">
                         <a>
                           <i className="fab fa-facebook-f" />
                         </a>
                       </Link>
-                      <Link href="/contact">
+                      <Link legacyBehavior  href="/contact">
                         <a>
                           <i className="fab fa-twitter" />
                         </a>
                       </Link>
-                      <Link href="/contact">
+                      <Link legacyBehavior  href="/contact">
                         <a>
                           <i className="fab fa-instagram" />
                         </a>
                       </Link>
-                      <Link href="/contact">
+                      <Link legacyBehavior  href="/contact">
                         <a>
                           <i className="fab fa-behance" />
                         </a>
                       </Link>
-                      <Link href="/contact">
+                      <Link legacyBehavior  href="/contact">
                         <a>
                           <i className="fab fa-dribbble" />
                         </a>
@@ -176,7 +176,7 @@ const SingleBlog = () => {
               <div className="next-prev-post py-55 wow fadeInUp delay-0-2s">
                 <div className="post-item">
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Build Group Chat App With Vanilla JS Twilio Node
                     </Link>
                   </h5>
@@ -187,7 +187,7 @@ const SingleBlog = () => {
                 </div>
                 <div className="post-item">
                   <h5>
-                    <Link href="/blog-details">
+                    <Link legacyBehavior  href="/blog-details">
                       Expand Your Horiz Desktop Wallpapers Edition See
                     </Link>
                   </h5>
@@ -364,29 +364,29 @@ const SingleBlog = () => {
                   <h4 className="widget-title">Category</h4>
                   <ul>
                     <li>
-                      <Link href="/blog">Digital Solutions</Link>{" "}
+                      <Link legacyBehavior  href="/blog">Digital Solutions</Link>{" "}
                       <span>(25)</span>
                     </li>
                     <li>
-                      <Link href="/blog">Saas Landing</Link> <span>(09)</span>
+                      <Link legacyBehavior  href="/blog">Saas Landing</Link> <span>(09)</span>
                     </li>
                     <li>
-                      <Link href="/blog">WordPress</Link> <span>(18)</span>
+                      <Link legacyBehavior  href="/blog">WordPress</Link> <span>(18)</span>
                     </li>
                     <li>
-                      <Link href="/blog">Graphics Design</Link>{" "}
+                      <Link legacyBehavior  href="/blog">Graphics Design</Link>{" "}
                       <span>(05)</span>
                     </li>
                     <li>
-                      <Link href="/blog">Business Consulting</Link>{" "}
+                      <Link legacyBehavior  href="/blog">Business Consulting</Link>{" "}
                       <span>(03)</span>
                     </li>
                     <li>
-                      <Link href="/blog">SEO Optimization</Link>{" "}
+                      <Link legacyBehavior  href="/blog">SEO Optimization</Link>{" "}
                       <span>(04)</span>
                     </li>
                     <li>
-                      <Link href="/blog">Marketing</Link> <span>(05)</span>
+                      <Link legacyBehavior  href="/blog">Marketing</Link> <span>(05)</span>
                     </li>
                   </ul>
                 </div>
@@ -399,7 +399,7 @@ const SingleBlog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link href="/blog-details">
+                          <Link legacyBehavior  href="/blog-details">
                             Build Group Chat App With Vanilla JS Twilio Node
                           </Link>
                         </h5>
@@ -415,7 +415,7 @@ const SingleBlog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link href="/blog-details">
+                          <Link legacyBehavior  href="/blog-details">
                             Expand Your Horiz Desktop Wallpapers Edition See
                           </Link>
                         </h5>
@@ -431,7 +431,7 @@ const SingleBlog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link href="/blog-details">
+                          <Link legacyBehavior  href="/blog-details">
                             Manage Accessible Design System With Colorntes
                           </Link>
                         </h5>
@@ -445,7 +445,7 @@ const SingleBlog = () => {
                 </div>
                 <div className="widget widget-cta wow fadeInUp delay-0-2s">
                   <h4>Build Awesome Website/Template</h4>
-                  <Link href="/contact">
+                  <Link legacyBehavior  href="/contact">
                     <a className="theme-btn style-two">
                       Contact Us <i className="fas fa-angle-double-right" />
                     </a>
@@ -465,15 +465,15 @@ const SingleBlog = () => {
                 <div className="widget widget-tag-cloud wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Popular Tags</h4>
                   <div className="tag-coulds">
-                    <Link href="/blog">Design</Link>
-                    <Link href="/blog">Landing</Link>
-                    <Link href="/blog">software</Link>
-                    <Link href="/blog">web</Link>
-                    <Link href="/blog">education</Link>
-                    <Link href="/blog">email marketing</Link>
-                    <Link href="/blog">SEO</Link>
-                    <Link href="/blog">development</Link>
-                    <Link href="/blog">wordpress</Link>
+                    <Link legacyBehavior  href="/blog">Design</Link>
+                    <Link legacyBehavior  href="/blog">Landing</Link>
+                    <Link legacyBehavior  href="/blog">software</Link>
+                    <Link legacyBehavior  href="/blog">web</Link>
+                    <Link legacyBehavior  href="/blog">education</Link>
+                    <Link legacyBehavior  href="/blog">email marketing</Link>
+                    <Link legacyBehavior  href="/blog">SEO</Link>
+                    <Link legacyBehavior  href="/blog">development</Link>
+                    <Link legacyBehavior  href="/blog">wordpress</Link>
                   </div>
                 </div>
               </div>

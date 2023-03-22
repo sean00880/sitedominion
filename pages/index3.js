@@ -30,7 +30,7 @@ const index3 = () => {
                   ultrices gravida commodo
                 </p>
                 <div className="hero-btns pt-5 wow fadeInUp delay-0-4s">
-                  <Link href="/about">
+                  <Link legacyBehavior  href="/about">
                     <a className="theme-btn mt-15">
                       Create Your Website{" "}
                       <i className="fas fa-angle-double-right" />
@@ -223,7 +223,7 @@ const index3 = () => {
                 ultrices gravida commodo viverra mae cenas accumsan lacus vel
                 facilisis.
               </p>
-              <Link href="/service-details">
+              <Link legacyBehavior  href="/service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>
@@ -247,7 +247,7 @@ const index3 = () => {
                 <li>Is it easy to create a website</li>
                 <li>Build creative website easily</li>
               </ul>
-              <Link href="/service-details">
+              <Link legacyBehavior  href="/service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>
@@ -269,7 +269,7 @@ const index3 = () => {
                 ultrices gravida commodo viverra mae cenas accumsan lacus vel
                 facilisis.
               </p>
-              <Link href="/service-details">
+              <Link legacyBehavior  href="/service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>
@@ -307,7 +307,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-3s">
                 <h4>
                   <i className="flaticon-drag-and-drop" />
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a>Drag {`&amp;`} Drop</a>
                   </Link>
                 </h4>
@@ -322,7 +322,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-5s">
                 <h4>
                   <i className="flaticon-responsive-1" />
-                  <Link href="/service-details">Edit by Device</Link>
+                  <Link legacyBehavior  href="/service-details">Edit by Device</Link>
                 </h4>
                 <p>
                   Discover the ultimate creation experien eams. Work the same
@@ -335,7 +335,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-7s">
                 <h4>
                   <i className="flaticon-email" />
-                  <Link href="/service-details">Email Campaign</Link>
+                  <Link legacyBehavior  href="/service-details">Email Campaign</Link>
                 </h4>
                 <p>
                   Discover the ultimate creation experien eams. Work the same
@@ -348,7 +348,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-3s">
                 <h4>
                   <i className="flaticon-monitor" />
-                  <Link href="/service-details">Simple to use</Link>
+                  <Link legacyBehavior  href="/service-details">Simple to use</Link>
                 </h4>
                 <p>
                   Discover the ultimate creation experien eams. Work the same
@@ -361,7 +361,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-5s">
                 <h4>
                   <i className="flaticon-user-experience" />
-                  <Link href="/service-details">Increase Leads</Link>
+                  <Link legacyBehavior  href="/service-details">Increase Leads</Link>
                 </h4>
                 <p>
                   Discover the ultimate creation experien eams. Work the same
@@ -374,7 +374,7 @@ const index3 = () => {
               <div className="feature-item-four wow fadeInUp delay-0-7s">
                 <h4>
                   <i className="flaticon-coding-1" />
-                  <Link href="/service-details">Developer Mode</Link>
+                  <Link legacyBehavior  href="/service-details">Developer Mode</Link>
                 </h4>
                 <p>
                   Discover the ultimate creation experien eams. Work the same
@@ -411,7 +411,7 @@ const index3 = () => {
                   building blocks that you need to get started! No skills
                   required.
                 </p>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn mt-15">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>

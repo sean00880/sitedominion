@@ -20,7 +20,7 @@ const Footer1 = () => (
         <div className="col-xl-4 col-lg-5 col-md-6">
           <div className="footer-widget widget_about me-md-5 wow fadeInUp delay-0-2s">
             <div className="footer-logo mb-25">
-              <Link href="/">
+              <Link legacyBehavior  href="/">
                 <a>
                   <img src="assets/images/logos/logo-four.png" alt="Logo" />
                 </a>
@@ -52,37 +52,37 @@ const Footer1 = () => (
             <h4 className="footer-title">Quick Links</h4>
             <ul className="list-style-two">
               <li>
-                <Link href="/service-details">Wed Design (UI/UX)</Link>
+                <Link legacyBehavior  href="/service-details">Wed Design (UI/UX)</Link>
               </li>
               <li>
-                <Link href="/about">About company</Link>
+                <Link legacyBehavior  href="/about">About company</Link>
               </li>
               <li>
-                <Link href="/service-details">Web development</Link>
+                <Link legacyBehavior  href="/service-details">Web development</Link>
               </li>
               <li>
-                <Link href="/team">Meet our teams</Link>
+                <Link legacyBehavior  href="/team">Meet our teams</Link>
               </li>
               <li>
-                <Link href="/service-details">SEO Optimization</Link>
+                <Link legacyBehavior  href="/service-details">SEO Optimization</Link>
               </li>
               <li>
-                <Link href="/service-details">Case Stories</Link>
+                <Link legacyBehavior  href="/service-details">Case Stories</Link>
               </li>
               <li>
-                <Link href="/service-details">Product Engineering</Link>
+                <Link legacyBehavior  href="/service-details">Product Engineering</Link>
               </li>
               <li>
-                <Link href="/blog">Latest News</Link>
+                <Link legacyBehavior  href="/blog">Latest News</Link>
               </li>
               <li>
-                <Link href="/service-details">Technical Support</Link>
+                <Link legacyBehavior  href="/service-details">Technical Support</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link legacyBehavior  href="/contact">Contact</Link>
               </li>
               <li>
-                <Link href="/service-details">Landing Pages Design</Link>
+                <Link legacyBehavior  href="/service-details">Landing Pages Design</Link>
               </li>
             </ul>
           </div>
@@ -171,7 +171,7 @@ const Footer2 = () => (
                 contact us and discuss your ideas.
               </p>
             </div>
-            <Link href="/contact">
+            <Link legacyBehavior  href="/contact">
               <a className="theme-btn mt-15">
                 Get a Quote <i className="fas fa-angle-double-right" />
               </a>
@@ -240,7 +240,7 @@ const DefaultFooter = () => (
         <div className="col-xl-4 col-lg-5 col-md-6">
           <div className="footer-widget widget_about me-md-5 wow fadeInUp delay-0-2s">
             <div className="footer-logo mb-25">
-              <Link href="/">
+              <Link legacyBehavior  href="/">
                 <a>
                   <img src="assets/images/logos/logo-three.png" alt="Logo" />
                 </a>
@@ -272,37 +272,37 @@ const DefaultFooter = () => (
             <h4 className="footer-title">Quick Links</h4>
             <ul className="list-style-two">
               <li>
-                <Link href="/service-details">Wed Design (UI/UX)</Link>
+                <Link legacyBehavior  href="/service-details">Wed Design (UI/UX)</Link>
               </li>
               <li>
-                <Link href="/about">About company</Link>
+                <Link legacyBehavior  href="/about">About company</Link>
               </li>
               <li>
-                <Link href="/service-details">Web development</Link>
+                <Link legacyBehavior  href="/service-details">Web development</Link>
               </li>
               <li>
-                <Link href="/team">Meet our teams</Link>
+                <Link legacyBehavior  href="/team">Meet our teams</Link>
               </li>
               <li>
-                <Link href="/service-details">SEO Optimization</Link>
+                <Link legacyBehavior  href="/service-details">SEO Optimization</Link>
               </li>
               <li>
-                <Link href="/service-details">Case Stories</Link>
+                <Link legacyBehavior  href="/service-details">Case Stories</Link>
               </li>
               <li>
-                <Link href="/service-details">Product Engineering</Link>
+                <Link legacyBehavior  href="/service-details">Product Engineering</Link>
               </li>
               <li>
-                <Link href="/blog">Latest News</Link>
+                <Link legacyBehavior  href="/blog">Latest News</Link>
               </li>
               <li>
-                <Link href="/service-details">Technical Support</Link>
+                <Link legacyBehavior  href="/service-details">Technical Support</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link legacyBehavior  href="/contact">Contact</Link>
               </li>
               <li>
-                <Link href="/service-details">Landing Pages Design</Link>
+                <Link legacyBehavior  href="/service-details">Landing Pages Design</Link>
               </li>
             </ul>
           </div>

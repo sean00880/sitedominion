@@ -88,7 +88,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Richard C. Harrison</Link>
+                <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
               </h5>
               <span className="designation">Senior Manager</span>
               <div className="social-style-one">
@@ -115,7 +115,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Richard C. Harrison</Link>
+                <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
               </h5>
               <span className="designation">Web Developer</span>
               <div className="social-style-one">
@@ -142,7 +142,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Michael D. Jackson</Link>
+                <Link legacyBehavior  href="/team-profile">Michael D. Jackson</Link>
               </h5>
               <span className="designation">Business Developer</span>
               <div className="social-style-one">
@@ -169,7 +169,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Damian S. Madison</Link>
+                <Link legacyBehavior  href="/team-profile">Damian S. Madison</Link>
               </h5>
               <span className="designation">Product Designer</span>
               <div className="social-style-one">
@@ -196,7 +196,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Michael F. Stanton</Link>
+                <Link legacyBehavior  href="/team-profile">Michael F. Stanton</Link>
               </h5>
               <span className="designation">Business Consultant</span>
               <div className="social-style-one">
@@ -223,7 +223,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Adam C. Holbrook</Link>
+                <Link legacyBehavior  href="/team-profile">Adam C. Holbrook</Link>
               </h5>
               <span className="designation">Junior Product Manager</span>
               <div className="social-style-one">
@@ -250,7 +250,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Melvin C. Olsen</Link>
+                <Link legacyBehavior  href="/team-profile">Melvin C. Olsen</Link>
               </h5>
               <span className="designation">Graphics Designer</span>
               <div className="social-style-one">
@@ -277,7 +277,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Steven F. Spicer</Link>
+                <Link legacyBehavior  href="/team-profile">Steven F. Spicer</Link>
               </h5>
               <span className="designation">Logo Designer</span>
               <div className="social-style-one">
@@ -304,7 +304,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Henry G. Hyman</Link>
+                <Link legacyBehavior  href="/team-profile">Henry G. Hyman</Link>
               </h5>
               <span className="designation">Support Engineer</span>
               <div className="social-style-one">
@@ -331,7 +331,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Charles V. Davenport</Link>
+                <Link legacyBehavior  href="/team-profile">Charles V. Davenport</Link>
               </h5>
               <span className="designation">Web Developer</span>
               <div className="social-style-one">
@@ -358,7 +358,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Brian V. Jackman</Link>
+                <Link legacyBehavior  href="/team-profile">Brian V. Jackman</Link>
               </h5>
               <span className="designation">SEO Experts</span>
               <div className="social-style-one">
@@ -385,7 +385,7 @@ const TeamIsotope = () => {
             </div>
             <div className="content">
               <h5>
-                <Link href="/team-profile">Steven M. Colon</Link>
+                <Link legacyBehavior  href="/team-profile">Steven M. Colon</Link>
               </h5>
               <span className="designation">Software Engineer</span>
               <div className="social-style-one">

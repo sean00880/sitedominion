@@ -28,12 +28,12 @@ const Hero1 = () => {
               <h1>Exceptional Custom Websites</h1>
               <div className="slider-btns">
                 
-                <Link href="/services">
+                <Link legacyBehavior  href="/services">
                   <a className="theme-btn style-three">
                     Explore Services <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/contact">
+                <Link legacyBehavior  href="/contact">
                   <a className="theme-btn">
                     Get Started<i className="fas fa-angle-double-right" />
                   </a>
@@ -69,12 +69,12 @@ const Hero1 = () => {
               </span>
               <h1>Transform Your Online Presence</h1>
               <div className="slider-btns">
-                <Link href="/contact">
+                <Link legacyBehavior  href="/contact">
                   <a className="theme-btn">
                     Get Started <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/services">
+                <Link legacyBehavior  href="/services">
                   <a className="theme-btn style-three">
                     Explore Services <i className="fas fa-angle-double-right" />
                   </a>
@@ -111,12 +111,12 @@ const Hero1 = () => {
               </span>
               <h1>Digital web design solutions agency</h1>
               <div className="slider-btns">
-                <Link href="/contact">
+                <Link legacyBehavior  href="/contact">
                   <a className="theme-btn">
                     Get Started<i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/services">
+                <Link legacyBehavior  href="/services">
                   <a className="theme-btn style-three">
                     Explore Services <i className="fas fa-angle-double-right" />
                   </a>

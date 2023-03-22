@@ -24,7 +24,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/grandpa-rons">
+              <Link legacyBehavior  href="/grandpa-rons">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -33,7 +33,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/grandpa-rons">Grandpa Ron's LLC</Link>
+              <Link legacyBehavior  href="/grandpa-rons">Grandpa Ron's LLC</Link>
             </h4>
             <span className="category">Landscaping Business</span>
           </div>
@@ -45,7 +45,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/explore-consultants">
+              <Link legacyBehavior  href="/explore-consultants">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -54,7 +54,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/explore-consultants">Explore Engineering Consultants Pvt. Ltd.</Link>
+              <Link legacyBehavior  href="/explore-consultants">Explore Engineering Consultants Pvt. Ltd.</Link>
             </h4>
             <span className="category">Engineering Organization</span>
           </div>
@@ -66,7 +66,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/explore-consultants">
+              <Link legacyBehavior  href="/explore-consultants">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -75,7 +75,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/metanetic">Metanetic</Link>
+              <Link legacyBehavior  href="/metanetic">Metanetic</Link>
             </h4>
             <span className="category">Social Media Marketing Agency</span>
           </div>
@@ -87,7 +87,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/metanetic">
+              <Link legacyBehavior  href="/metanetic">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -96,7 +96,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/project-details">Software Landing Pages</Link>
+              <Link legacyBehavior  href="/project-details">Software Landing Pages</Link>
             </h4>
             <span className="category">Design Responsive</span>
           </div>

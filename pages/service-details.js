@@ -50,7 +50,7 @@ const ServicesDetails = () => {
                 <p>
                   25 Years Of Experience In Website Design &amp; Development
                 </p>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn mt-15">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -179,7 +179,7 @@ const ServicesDetails = () => {
                   <li>Highly customizable</li>
                   <li>Most popular CMS in the world</li>
                 </ul>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn mt-15">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -214,7 +214,7 @@ const ServicesDetails = () => {
                   <li>Design for every device</li>
                   <li>Positive UX &amp; Helps SEO</li>
                 </ul>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn style-two mt-15">
                     Learn More <i className="fas fa-angle-double-right" />
                   </a>
@@ -256,7 +256,7 @@ const ServicesDetails = () => {
                   with us into several facets of digital marketing and have seen
                   optimal growth.
                 </p>
-                <Link href="/contact">
+                <Link legacyBehavior  href="/contact">
                   <a className="theme-btn style-three white-btn mt-15">
                     Create Your Website{" "}
                     <i className="fas fa-angle-double-right" />

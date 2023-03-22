@@ -129,12 +129,12 @@ const Cart = () => {
             </div>
             <div className="col-lg-6">
               <div className="update-shopping mb-30 text-lg-end wow fadeInRight delay-0-2s">
-                <Link href="/shop">
+                <Link legacyBehavior  href="/shop">
                   <a className="theme-btn style-two my-5 me-2">
                     shopping <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/shop">
+                <Link legacyBehavior  href="/shop">
                   <a className="theme-btn my-5">
                     update cart <i className="fas fa-angle-double-right" />
                   </a>
@@ -174,7 +174,7 @@ const Cart = () => {
                     </tr>
                   </tbody>
                 </table>
-                <Link href="/checkout">
+                <Link legacyBehavior  href="/checkout">
                   <a className="theme-btn style-two mt-25 w-100">
                     Proceed to checkout
                   </a>

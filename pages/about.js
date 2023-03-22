@@ -50,7 +50,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="ww-do-btns">
-                  <Link href="/about">
+                  <Link legacyBehavior  href="/about">
                     <a className="theme-btn mt-15">
                       Create Your Website{" "}
                       <i className="fas fa-angle-double-right" />
@@ -197,7 +197,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Senior Manager</span>
                 <div className="social-style-one">
@@ -222,7 +222,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-one">
@@ -247,7 +247,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Michael D. Jackson</Link>
+                  <Link legacyBehavior  href="/team-profile">Michael D. Jackson</Link>
                 </h5>
                 <span className="designation">Business Developer</span>
                 <div className="social-style-one">
@@ -272,7 +272,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Damian S. Madison</Link>
+                  <Link legacyBehavior  href="/team-profile">Damian S. Madison</Link>
                 </h5>
                 <span className="designation">Product Designer</span>
                 <div className="social-style-one">
@@ -297,7 +297,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Senior Manager</span>
                 <div className="social-style-one">
@@ -322,7 +322,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-one">
@@ -347,7 +347,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Michael D. Jackson</Link>
+                  <Link legacyBehavior  href="/team-profile">Michael D. Jackson</Link>
                 </h5>
                 <span className="designation">Business Developer</span>
                 <div className="social-style-one">
@@ -372,7 +372,7 @@ const About = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Damian S. Madison</Link>
+                  <Link legacyBehavior  href="/team-profile">Damian S. Madison</Link>
                 </h5>
                 <span className="designation">Product Designer</span>
                 <div className="social-style-one">

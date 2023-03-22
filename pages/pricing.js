@@ -75,7 +75,7 @@ const Pricing = () => {
                               <span className="save">
                                 Save<span> 25%</span>
                               </span>
-                              <Link href="/pricing">
+                              <Link legacyBehavior  href="/pricing">
                                 <a className="theme-btn style-three">
                                   Choose Package{" "}
                                   <i className="fas fa-angle-double-right" />
@@ -103,7 +103,7 @@ const Pricing = () => {
                               <span className="save">
                                 Save<span> 25%</span>
                               </span>
-                              <Link href="/pricing">
+                              <Link legacyBehavior  href="/pricing">
                                 <a className="theme-btn style-three">
                                   Choose Package{" "}
                                   <i className="fas fa-angle-double-right" />
@@ -135,7 +135,7 @@ const Pricing = () => {
                               <span className="save">
                                 Save<span> 25%</span>
                               </span>
-                              <Link href="/pricing">
+                              <Link legacyBehavior  href="/pricing">
                                 <a className="theme-btn style-three">
                                   Choose Package{" "}
                                   <i className="fas fa-angle-double-right" />
@@ -163,7 +163,7 @@ const Pricing = () => {
                               <span className="save">
                                 Save<span> 25%</span>
                               </span>
-                              <Link href="/pricing">
+                              <Link legacyBehavior  href="/pricing">
                                 <a className="theme-btn style-three">
                                   Choose Package{" "}
                                   <i className="fas fa-angle-double-right" />
@@ -250,7 +250,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -278,7 +278,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -306,7 +306,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 43%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -338,7 +338,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -366,7 +366,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -394,7 +394,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 43%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -482,7 +482,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -510,7 +510,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -538,7 +538,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -566,7 +566,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -598,7 +598,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -626,7 +626,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -654,7 +654,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -682,7 +682,7 @@ const Pricing = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link legacyBehavior  href="/pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />

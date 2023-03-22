@@ -31,7 +31,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -43,7 +43,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>
@@ -71,7 +71,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -83,7 +83,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>
@@ -111,7 +111,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -123,7 +123,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>
@@ -151,7 +151,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -163,7 +163,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>
@@ -191,7 +191,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -203,7 +203,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>
@@ -231,7 +231,7 @@ const BlogList = () => {
                   </li>
                 </ul>
                 <h4>
-                  <Link href="/blog-details">
+                  <Link legacyBehavior  href="/blog-details">
                     How To Build Group Chat With Vanilla JS, Twilio Manage
                     Accessible Design System
                   </Link>
@@ -243,7 +243,7 @@ const BlogList = () => {
                   beatae vitae dicta sunt explicabo voluptatem quia voluptas
                   site
                 </p>
-                <Link href="/blog-details">
+                <Link legacyBehavior  href="/blog-details">
                   <a className="read-more">
                     Read More <i className="far fa-arrow-right" />
                   </a>

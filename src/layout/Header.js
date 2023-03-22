@@ -23,7 +23,7 @@ const Header1 = () => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link legacyBehavior  href="/">
                   <a>
                     <img
                       src="assets/images/logos/logo-two.png"
@@ -40,7 +40,7 @@ const Header1 = () => {
               <nav className="main-menu d-none d-lg-block navbar-expand-lg">
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
-                    <Link href="/">
+                    <Link legacyBehavior  href="/">
                       <a>
                         <img
                           src="assets/images/logos/logo-two.png"
@@ -87,7 +87,7 @@ const Header1 = () => {
             </div>
             {/* Menu Button */}
             <div className="menu-btns">
-              <Link href="/contact">
+              <Link legacyBehavior  href="/contact">
                 <a className="theme-btn style-three">
                   Get a Quote <i className="fas fa-angle-double-right" />
                 </a>
@@ -162,7 +162,7 @@ const Header2 = () => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link legacyBehavior  href="/">
                   <a>
                     <img
                       src="assets/images/logos/logo.png"
@@ -186,7 +186,7 @@ const Header2 = () => {
               <nav className="main-menu d-none d-lg-block navbar-expand-lg">
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
-                    <Link href="/">
+                    <Link legacyBehavior  href="/">
                       <a>
                         <img
                           src="assets/images/logos/logo.png"
@@ -233,7 +233,7 @@ const Header2 = () => {
             </div>
             {/* Menu Button */}
             <div className="menu-btns">
-              <Link href="/contact">
+              <Link legacyBehavior  href="/contact">
                 <a className="theme-btn">
                   Download Now <i className="fas fa-angle-double-right" />
                 </a>
@@ -264,7 +264,7 @@ const DefaultHeader = () => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link legacyBehavior  href="/">
                   <a>
                     <img
                       src="assets/images/logos/logo.png"
@@ -281,7 +281,7 @@ const DefaultHeader = () => {
               <nav className="main-menu d-none d-lg-block navbar-expand-lg">
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
-                    <Link href="/">
+                    <Link legacyBehavior  href="/">
                       <a>
                         <img
                           src="assets/images/logos/logo.png"
@@ -311,10 +311,10 @@ const DefaultHeader = () => {
             </div>
             {/* Menu Button */}
             <div className="menu-btns">
-              <Link href="/contact">
+              <Link legacyBehavior  href="/contact">
                 <a className="login">Log in</a>
               </Link>
-              <Link href="/contact">
+              <Link legacyBehavior  href="/contact">
                 <a className="theme-btn">
                   Sign up Free <i className="fas fa-angle-double-right" />
                 </a>
@@ -338,19 +338,19 @@ const Menu = () => {
             <a href="#">MultiPage</a>
             <ul>
               <li>
-                <Link href="/">Web Design</Link>
+                <Link legacyBehavior  href="/">Web Design</Link>
               </li>
               <li>
-                <Link href="/index1dark">Web Design Dark</Link>
+                <Link legacyBehavior  href="/index1dark">Web Design Dark</Link>
               </li>
               <li>
-                <Link href="/index2">Front End Services</Link>
+                <Link legacyBehavior  href="/index2">Front End Services</Link>
               </li>
               <li>
-                <Link href="/index2dark">Front End Dark</Link>
+                <Link legacyBehavior  href="/index2dark">Front End Dark</Link>
               </li>
               <li>
-                <Link href="/index3">Website Builder</Link>
+                <Link legacyBehavior  href="/index3">Website Builder</Link>
               </li>
             </ul>
             <div className="dropdown-btn">
@@ -361,19 +361,19 @@ const Menu = () => {
             <a href="#">OnePage</a>
             <ul>
               <li>
-                <Link href="/index1-onepage">Web Design</Link>
+                <Link legacyBehavior  href="/index1-onepage">Web Design</Link>
               </li>
               <li>
-                <Link href="/index1dark-onepage">Web Design Dark</Link>
+                <Link legacyBehavior  href="/index1dark-onepage">Web Design Dark</Link>
               </li>
               <li>
-                <Link href="/index2-onepage">Front End Services</Link>
+                <Link legacyBehavior  href="/index2-onepage">Front End Services</Link>
               </li>
               <li>
-                <Link href="/index2dark-onepage">Front End Dark</Link>
+                <Link legacyBehavior  href="/index2dark-onepage">Front End Dark</Link>
               </li>
               <li>
-                <Link href="/index3-onepage">Website Builder</Link>
+                <Link legacyBehavior  href="/index3-onepage">Website Builder</Link>
               </li>
             </ul>
             <div className="dropdown-btn">
@@ -389,10 +389,10 @@ const Menu = () => {
         <a href="#">services</a>
         <ul>
           <li>
-            <Link href="/services">Popular Services</Link>
+            <Link legacyBehavior  href="/services">Popular Services</Link>
           </li>
           <li>
-            <Link href="/service-details">service details</Link>
+            <Link legacyBehavior  href="/service-details">service details</Link>
           </li>
         </ul>
         <div className="dropdown-btn">
@@ -403,16 +403,16 @@ const Menu = () => {
         <a href="#">Project</a>
         <ul>
           <li>
-            <Link href="/projects">Project Grid</Link>
+            <Link legacyBehavior  href="/projects">Project Grid</Link>
           </li>
           <li>
-            <Link href="/project-creative">Project Creative</Link>
+            <Link legacyBehavior  href="/project-creative">Project Creative</Link>
           </li>
           <li>
-            <Link href="/project-carousel">Project Carousel</Link>
+            <Link legacyBehavior  href="/project-carousel">Project Carousel</Link>
           </li>
           <li>
-            <Link href="/project-details">Project Details</Link>
+            <Link legacyBehavior  href="/project-details">Project Details</Link>
           </li>
         </ul>
         <div className="dropdown-btn">
@@ -423,16 +423,16 @@ const Menu = () => {
         <a href="#">pages</a>
         <ul>
           <li>
-            <Link href="/about">About us</Link>
+            <Link legacyBehavior  href="/about">About us</Link>
           </li>
           <li className="dropdown">
             <a href="#">Team</a>
             <ul>
               <li>
-                <Link href="/team">Expert Team</Link>
+                <Link legacyBehavior  href="/team">Expert Team</Link>
               </li>
               <li>
-                <Link href="/team-profile">Team Profile</Link>
+                <Link legacyBehavior  href="/team-profile">Team Profile</Link>
               </li>
             </ul>
             <div className="dropdown-btn">
@@ -440,13 +440,13 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            <Link href="/pricing">pricing plan</Link>
+            <Link legacyBehavior  href="/pricing">pricing plan</Link>
           </li>
           <li>
-            <Link href="/faqs">faqs &amp; helf</Link>
+            <Link legacyBehavior  href="/faqs">faqs &amp; helf</Link>
           </li>
           <li>
-            <Link href="/404">404 error</Link>
+            <Link legacyBehavior  href="/404">404 error</Link>
           </li>
         </ul>
         <div className="dropdown-btn">
@@ -457,16 +457,16 @@ const Menu = () => {
         <a href="#">shop</a>
         <ul>
           <li>
-            <Link href="/shop">shop Grid</Link>
+            <Link legacyBehavior  href="/shop">shop Grid</Link>
           </li>
           <li>
-            <Link href="/product-details">Product details</Link>
+            <Link legacyBehavior  href="/product-details">Product details</Link>
           </li>
           <li>
-            <Link href="/cart">cart page</Link>
+            <Link legacyBehavior  href="/cart">cart page</Link>
           </li>
           <li>
-            <Link href="/checkout">checkout</Link>
+            <Link legacyBehavior  href="/checkout">checkout</Link>
           </li>
         </ul>
         <div className="dropdown-btn">
@@ -477,13 +477,13 @@ const Menu = () => {
         <a href="#">blog</a>
         <ul>
           <li>
-            <Link href="/blog">blog Grid</Link>
+            <Link legacyBehavior  href="/blog">blog Grid</Link>
           </li>
           <li>
-            <Link href="/blog-list">blog list</Link>
+            <Link legacyBehavior  href="/blog-list">blog list</Link>
           </li>
           <li>
-            <Link href="/blog-details">blog details</Link>
+            <Link legacyBehavior  href="/blog-details">blog details</Link>
           </li>
         </ul>
         <div className="dropdown-btn">
@@ -491,7 +491,7 @@ const Menu = () => {
         </div>
       </li>
       <li>
-        <Link href="/contact">Contact</Link>
+        <Link legacyBehavior  href="/contact">Contact</Link>
       </li>
     </ul>
   );

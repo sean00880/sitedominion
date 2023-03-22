@@ -184,7 +184,7 @@ const Index2OnePage = () => {
                   ultrices gravida risus
                 </p>
                 <div className="hero-btns pt-10">
-                  <Link href="/about">
+                  <Link legacyBehavior  href="/about">
                     <a className="theme-btn mt-15">
                       Discover More <i className="fas fa-angle-double-right" />
                     </a>
@@ -260,7 +260,7 @@ const Index2OnePage = () => {
                   <Counter end={3658} />
                   <span className="heading">Clients Satisfactions</span>
                 </div>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn mt-15">
                     Learn More About Us{" "}
                     <i className="fas fa-angle-double-right" />
@@ -356,7 +356,7 @@ const Index2OnePage = () => {
                     projects
                   </p>
                 </div>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn style-three">
                     Learn More About Us{" "}
                     <i className="fas fa-angle-double-right" />
@@ -400,12 +400,12 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>React js Development</a>
                     </Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -420,12 +420,12 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>React Native Development</a>
                     </Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -440,10 +440,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">Jamstack Development</Link>
+                    <Link legacyBehavior  href="/service-details">Jamstack Development</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -458,10 +458,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">Front-end development</Link>
+                    <Link legacyBehavior  href="/service-details">Front-end development</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -476,10 +476,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">MVP Development</Link>
+                    <Link legacyBehavior  href="/service-details">MVP Development</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -494,10 +494,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">Web app Development</Link>
+                    <Link legacyBehavior  href="/service-details">Web app Development</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -512,10 +512,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">Mobile app Development</Link>
+                    <Link legacyBehavior  href="/service-details">Mobile app Development</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -530,10 +530,10 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/service-details">Team Agumentation</Link>
+                    <Link legacyBehavior  href="/service-details">Team Agumentation</Link>
                   </h5>
                   <p>Focus provide beautiful layout client look make import</p>
-                  <Link href="/service-details">
+                  <Link legacyBehavior  href="/service-details">
                     <a className="read-more">
                       Read More <i className="fas fa-angle-double-right" />
                     </a>
@@ -557,7 +557,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -575,7 +575,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -593,7 +593,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -611,7 +611,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -629,7 +629,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -647,7 +647,7 @@ const Index2OnePage = () => {
                     alt="Project"
                   />
                   <div className="project-over">
-                    <Link href="/project-details">
+                    <Link legacyBehavior  href="/project-details">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -711,7 +711,7 @@ const Index2OnePage = () => {
           </div>
           <div className="counter-cta mt-65 wow fadeInUp delay-0-2s">
             <h4>Interested ! Let’s work together</h4>
-            <Link href="/contact">
+            <Link legacyBehavior  href="/contact">
               <a className="theme-btn style-three white-btn">
                 Get Started Now <i className="fas fa-angle-double-right" />
               </a>
@@ -822,7 +822,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-responsive" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           <a>Responsive design</a>
                         </Link>
                       </h5>
@@ -834,7 +834,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-feature" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           Powerful Customization
                         </Link>
                       </h5>
@@ -846,7 +846,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-aim" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           Cool &amp; modern animations
                         </Link>
                       </h5>
@@ -858,7 +858,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-seo" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           <a>SEO Friendly Coding</a>
                         </Link>
                       </h5>
@@ -870,7 +870,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-search-location" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           Best Technical supports
                         </Link>
                       </h5>
@@ -882,7 +882,7 @@ const Index2OnePage = () => {
                         <i className="flaticon-settings" />
                       </div>
                       <h5>
-                        <Link href="/service-details">
+                        <Link legacyBehavior  href="/service-details">
                           Varied Layouts &amp; parallax
                         </Link>
                       </h5>
@@ -904,7 +904,7 @@ const Index2OnePage = () => {
                   labore et dolore magna aliquae suspendisse ultrices gravida.
                   Risus commodo viverra maecenas accumsan
                 </p>
-                <Link href="/about">
+                <Link legacyBehavior  href="/about">
                   <a className="theme-btn mt-25">
                     Learn More About Us{" "}
                     <i className="fas fa-angle-double-right" />
@@ -931,7 +931,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/team-profile">Richard C. Harrison</Link>
+                    <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                   </h5>
                   <span className="designation">Senior Manager</span>
                   <div className="social-style-one">
@@ -958,7 +958,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/team-profile">Richard C. Harrison</Link>
+                    <Link legacyBehavior  href="/team-profile">Richard C. Harrison</Link>
                   </h5>
                   <span className="designation">Web Developer</span>
                   <div className="social-style-one">
@@ -985,7 +985,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/team-profile">Michael D. Jackson</Link>
+                    <Link legacyBehavior  href="/team-profile">Michael D. Jackson</Link>
                   </h5>
                   <span className="designation">Business Developer</span>
                   <div className="social-style-one">
@@ -1012,7 +1012,7 @@ const Index2OnePage = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="/team-profile">Damian S. Madison</Link>
+                    <Link legacyBehavior  href="/team-profile">Damian S. Madison</Link>
                   </h5>
                   <span className="designation">Product Designer</span>
                   <div className="social-style-one">
@@ -1069,7 +1069,7 @@ const Index2OnePage = () => {
                 <span className="save">
                   Save<span> 25%</span>
                 </span>
-                <Link href="/pricing">
+                <Link legacyBehavior  href="/pricing">
                   <a className="theme-btn style-three">
                     Choose Package <i className="fas fa-angle-double-right" />
                   </a>
@@ -1096,7 +1096,7 @@ const Index2OnePage = () => {
                 <span className="save">
                   Save<span> 43%</span>
                 </span>
-                <Link href="/pricing">
+                <Link legacyBehavior  href="/pricing">
                   <a className="theme-btn style-three">
                     Choose Package <i className="fas fa-angle-double-right" />
                   </a>
@@ -1123,7 +1123,7 @@ const Index2OnePage = () => {
                 <span className="save">
                   Save<span> 66%</span>
                 </span>
-                <Link href="/pricing">
+                <Link legacyBehavior  href="/pricing">
                   <a className="theme-btn style-three">
                     Choose Package <i className="fas fa-angle-double-right" />
                   </a>

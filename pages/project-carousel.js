@@ -93,7 +93,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -102,7 +102,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -118,7 +118,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -127,7 +127,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Mobile Application <br />
                           Development
@@ -143,7 +143,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -152,7 +152,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           web Design Landing <br />
                           PSD Template
@@ -168,7 +168,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -177,7 +177,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -193,7 +193,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -202,7 +202,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Mobile Application <br />
                           Development
@@ -218,7 +218,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -227,7 +227,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Web Design Landing <br />
                           PSD Template
@@ -247,7 +247,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -256,7 +256,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Web Design Landing <br />
                           PSD Template
@@ -272,7 +272,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -281,7 +281,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -297,7 +297,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -306,7 +306,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -323,7 +323,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -332,7 +332,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -348,7 +348,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -357,7 +357,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -374,7 +374,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -383,7 +383,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -404,7 +404,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -413,7 +413,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -430,7 +430,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -439,7 +439,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -456,7 +456,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -465,7 +465,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -481,7 +481,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -490,7 +490,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -507,7 +507,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -516,7 +516,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -533,7 +533,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -542,7 +542,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -562,7 +562,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -571,7 +571,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -587,7 +587,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -596,7 +596,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -613,7 +613,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -622,7 +622,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -639,7 +639,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -648,7 +648,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -665,7 +665,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -674,7 +674,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -691,7 +691,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -700,7 +700,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -720,7 +720,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -729,7 +729,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -746,7 +746,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -755,7 +755,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -771,7 +771,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -780,7 +780,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />
@@ -797,7 +797,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -806,7 +806,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Web Design Landing <br />
@@ -823,7 +823,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -832,7 +832,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           Saas Landing PSD <br />
                           Template
@@ -848,7 +848,7 @@ const ProjectsCarousel = () => {
                       alt="Project"
                     />
                     <div className="project-over">
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a className="details-btn">
                           <i className="far fa-arrow-right" />
                         </a>
@@ -857,7 +857,7 @@ const ProjectsCarousel = () => {
                   </div>
                   <div className="project-content">
                     <h5>
-                      <Link href="/project-details">
+                      <Link legacyBehavior  href="/project-details">
                         <a>
                           {" "}
                           Mobile Application <br />

@@ -11,7 +11,7 @@ const index1dark = () => {
     <Fragment>
       <Head>
         {" "}
-        <link
+        <Link legacyBehavior 
           rel="shortcut icon"
           href="assets/images/favicon1.png"
           type="image/x-icon"
@@ -34,7 +34,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-responsive" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>Responsive design</a>
                     </Link>
                   </h5>
@@ -44,7 +44,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-feature" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>Powerful Customization</a>
                     </Link>
                   </h5>
@@ -54,7 +54,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-aim" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>Cool &amp; modern animations</a>
                     </Link>
                   </h5>
@@ -64,7 +64,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-seo" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>SEO Friendly Coding</a>
                     </Link>
                   </h5>
@@ -74,7 +74,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-search-location" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>Best Technical supports</a>
                     </Link>
                   </h5>
@@ -84,7 +84,7 @@ const index1dark = () => {
                 <div className="feature-item-five">
                   <i className="flaticon-settings" />
                   <h5>
-                    <Link href="/service-details">
+                    <Link legacyBehavior  href="/service-details">
                       <a>Varied Layouts &amp; parallax</a>
                     </Link>
                   </h5>
@@ -231,11 +231,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>Website Creation from Scratch</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -250,11 +250,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>Website maintenance Services</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -287,11 +287,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>eCommerce and product selling</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -306,11 +306,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>Responsive websites (UI/UX) design</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -331,11 +331,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>Search Engine Optimization</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -350,11 +350,11 @@ const index1dark = () => {
                         </div>
                         <div className="content">
                           <h4>
-                            <Link href="/service-details">
+                            <Link legacyBehavior  href="/service-details">
                               <a>User Experience and Design</a>
                             </Link>
                           </h4>
-                          <Link href="/service-details">
+                          <Link legacyBehavior  href="/service-details">
                             <a className="more-btn">
                               <i className="fal fa-long-arrow-right" />
                             </a>
@@ -472,7 +472,7 @@ const index1dark = () => {
                       <i className="flaticon-target" />
                     </div>
                     <h4>Have any Project On Minds ?</h4>
-                    <Link href="/contact">
+                    <Link legacyBehavior  href="/contact">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -485,7 +485,7 @@ const index1dark = () => {
                       <i className="flaticon-target" />
                     </div>
                     <h4>We are to work SEO optimization ?</h4>
-                    <Link href="/contact">
+                    <Link legacyBehavior  href="/contact">
                       <a className="details-btn">
                         <i className="far fa-arrow-right" />
                       </a>
@@ -527,7 +527,7 @@ const index1dark = () => {
                         <span className="save">
                           Save<span> 25%</span>
                         </span>
-                        <Link href="/pricing">
+                        <Link legacyBehavior  href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
                             <i className="fas fa-angle-double-right" />
@@ -556,7 +556,7 @@ const index1dark = () => {
                         <span className="save">
                           Save<span> 25%</span>
                         </span>
-                        <Link href="/pricing">
+                        <Link legacyBehavior  href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
                             <i className="fas fa-angle-double-right" />
@@ -585,7 +585,7 @@ const index1dark = () => {
                         <span className="save">
                           Save<span> 25%</span>
                         </span>
-                        <Link href="/pricing">
+                        <Link legacyBehavior  href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
                             <i className="fas fa-angle-double-right" />
@@ -614,7 +614,7 @@ const index1dark = () => {
                         <span className="save">
                           Save<span> 25%</span>
                         </span>
-                        <Link href="/pricing">
+                        <Link legacyBehavior  href="/pricing">
                           <a className="theme-btn style-three">
                             Choose Package{" "}
                             <i className="fas fa-angle-double-right" />
@@ -787,7 +787,7 @@ const index1dark = () => {
                       <i className="far fa-calendar-alt" /> 25 March 2022
                     </span>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link legacyBehavior  href="/blog-details">
                         <a>Easy Ways to Incorporate Customer Feedback</a>
                       </Link>
                     </h4>
@@ -811,7 +811,7 @@ const index1dark = () => {
                       <i className="far fa-calendar-alt" /> 27 March 2022
                     </span>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link legacyBehavior  href="/blog-details">
                         <a>How to create modern web site for your business?</a>
                       </Link>
                     </h4>
@@ -835,7 +835,7 @@ const index1dark = () => {
                       <i className="far fa-calendar-alt" /> 25 March 2022
                     </span>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link legacyBehavior  href="/blog-details">
                         <a>How to digital marketing work social networking?</a>
                       </Link>
                     </h4>
@@ -859,7 +859,7 @@ const index1dark = () => {
                       <i className="far fa-calendar-alt" /> 25 March 2022
                     </span>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link legacyBehavior  href="/blog-details">
                         <a>Easy Ways to Incorporate Customer Feedback</a>
                       </Link>
                     </h4>

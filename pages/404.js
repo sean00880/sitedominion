@@ -12,7 +12,7 @@ const E404 = () => {
             <div className="col-lg-5">
               <div className="error-content rmb-75 wow fadeInLeft delay-0-2s animated">
                 <div className="logo mb-40">
-                  <Link href="/">
+                  <Link legacyBehavior  href="/">
                     <a>
                       <img src="assets/images/logos/logo.png" alt="" />
                     </a>
@@ -25,7 +25,7 @@ const E404 = () => {
                   intuitive drag &amp; drop interface gives you all the building
                   blocks
                 </p>
-                <Link href="/">
+                <Link legacyBehavior  href="/">
                   <a className="theme-btn style-two mt-15 mb-50">
                     Go to Home <i className="fas fa-angle-double-right" />
                   </a>
