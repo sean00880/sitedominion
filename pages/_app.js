@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
@@ -31,12 +32,15 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-        {/* Font Awesome */}
-        <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" defer />
-        {/* Bootstrap */}
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" defer />
-        {/* Magnific Popup */}
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css" defer />
+        
+       
+    
+       
+
+      </Head>
+      {load && <PreLoader />}
+       {/* Magnific Popup */}
+       <link rel="stylesheet" href="assets/css/magnific-popup.min.css" defer />
         {/* Nice Select */}
         <link rel="stylesheet" href="assets/css/nice-select.min.css" defer/>
         {/* Type Writer */}
@@ -46,9 +50,9 @@ function MyApp({ Component, pageProps }) {
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" defer/>
         {/* Main Style */}
-        <link rel="stylesheet" href="assets/css/style.css" />
-      </Head>
-      {load && <PreLoader />}
+      <Script src="assets/css/fontawesome-5.14.0.min.css" strategy="defer" />
+      <Script src="assets/css/style.css" strategy="defer" />
+      <Script src="assets/css/bootstrap.min.css" strategy="defer" />
       <Component {...pageProps} />
     </Fragment>
   );
