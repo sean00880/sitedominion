@@ -12,7 +12,7 @@ const IndexOnePage = () => {
     <Layout className="home-one dark-version" footer={1} noHeader>
       <Head>
         {" "}
-        <Link legacyBehavior 
+        <link
           rel="shortcut icon"
           href="assets/images/favicon1.png"
           type="image/x-icon"
@@ -25,7 +25,7 @@ const IndexOnePage = () => {
             <div className="header-inner rel d-flex align-items-center">
               <div className="logo-outer">
                 <div className="logo">
-                  <Link legacyBehavior  href="/">
+                  <Link href="/">
                     <a>
                       <img
                         src="assets/images/logos/logo-two.png"
@@ -42,7 +42,7 @@ const IndexOnePage = () => {
                   <Accordion>
                     <div className="navbar-header">
                       <div className="mobile-logo my-15">
-                        <Link legacyBehavior  href="/">
+                        <Link href="/">
                           <a>
                             <img
                               src="assets/images/logos/logo-two.png"
@@ -117,7 +117,7 @@ const IndexOnePage = () => {
               </div>
               {/* Menu Button */}
               <div className="menu-btns">
-                <Link legacyBehavior  href="/contact">
+                <Link href="/contact">
                   <a className="theme-btn style-three">
                     Get a Quote <i className="fas fa-angle-double-right" />
                   </a>
@@ -153,7 +153,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-responsive" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>Responsive design</a>
                   </Link>
                 </h5>
@@ -163,7 +163,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-feature" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>Powerful Customization</a>
                   </Link>
                 </h5>
@@ -173,7 +173,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-aim" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>Cool &amp; modern animations</a>
                   </Link>
                 </h5>
@@ -183,7 +183,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-seo" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>SEO Friendly Coding</a>
                   </Link>
                 </h5>
@@ -193,7 +193,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-search-location" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>Best Technical supports</a>
                   </Link>
                 </h5>
@@ -203,7 +203,7 @@ const IndexOnePage = () => {
               <div className="feature-item-five">
                 <i className="flaticon-settings" />
                 <h5>
-                  <Link legacyBehavior  href="/service-details">
+                  <Link href="/service-details">
                     <a>Varied Layouts &amp; parallax</a>
                   </Link>
                 </h5>
@@ -353,11 +353,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>Website Creation from Scratch</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -372,11 +372,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>Website maintenance Services</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -409,11 +409,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>eCommerce and product selling</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -428,11 +428,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>Responsive websites (UI/UX) design</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -453,11 +453,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>Search Engine Optimization</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -472,11 +472,11 @@ const IndexOnePage = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link legacyBehavior  href="/service-details">
+                          <Link href="/service-details">
                             <a>User Experience and Design</a>
                           </Link>
                         </h4>
-                        <Link legacyBehavior  href="/service-details">
+                        <Link href="/service-details">
                           <a className="more-btn">
                             <i className="fal fa-long-arrow-right" />
                           </a>
@@ -586,7 +586,7 @@ const IndexOnePage = () => {
                     <i className="flaticon-target" />
                   </div>
                   <h4>Have any Project On Minds ?</h4>
-                  <Link legacyBehavior  href="/contact">
+                  <Link href="/contact">
                     <a className="details-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -599,7 +599,7 @@ const IndexOnePage = () => {
                     <i className="flaticon-target" />
                   </div>
                   <h4>We are to work SEO optimization ?</h4>
-                  <Link legacyBehavior  href="/contact">
+                  <Link href="/contact">
                     <a className="details-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -644,7 +644,7 @@ const IndexOnePage = () => {
                       <span className="save">
                         Save<span> 25%</span>
                       </span>
-                      <Link legacyBehavior  href="/pricing">
+                      <Link href="/pricing">
                         <a className="theme-btn style-three">
                           Choose Package{" "}
                           <i className="fas fa-angle-double-right" />
@@ -673,7 +673,7 @@ const IndexOnePage = () => {
                       <span className="save">
                         Save<span> 25%</span>
                       </span>
-                      <Link legacyBehavior  href="/pricing">
+                      <Link href="/pricing">
                         <a className="theme-btn style-three">
                           Choose Package{" "}
                           <i className="fas fa-angle-double-right" />
@@ -702,7 +702,7 @@ const IndexOnePage = () => {
                       <span className="save">
                         Save<span> 25%</span>
                       </span>
-                      <Link legacyBehavior  href="/pricing">
+                      <Link href="/pricing">
                         <a className="theme-btn style-three">
                           Choose Package{" "}
                           <i className="fas fa-angle-double-right" />
@@ -731,7 +731,7 @@ const IndexOnePage = () => {
                       <span className="save">
                         Save<span> 25%</span>
                       </span>
-                      <Link legacyBehavior  href="/pricing">
+                      <Link href="/pricing">
                         <a className="theme-btn style-three">
                           Choose Package{" "}
                           <i className="fas fa-angle-double-right" />
@@ -905,7 +905,7 @@ const IndexOnePage = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link legacyBehavior  href="/blog-details">
+                    <Link href="/blog-details">
                       <a>Easy Ways to Incorporate Customer Feedback</a>
                     </Link>
                   </h4>
@@ -929,7 +929,7 @@ const IndexOnePage = () => {
                     <i className="far fa-calendar-alt" /> 27 March 2022
                   </span>
                   <h4>
-                    <Link legacyBehavior  href="/blog-details">
+                    <Link href="/blog-details">
                       <a>How to create modern web site for your business?</a>
                     </Link>
                   </h4>
@@ -953,7 +953,7 @@ const IndexOnePage = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link legacyBehavior  href="/blog-details">
+                    <Link href="/blog-details">
                       <a>How to digital marketing work social networking?</a>
                     </Link>
                   </h4>
@@ -977,7 +977,7 @@ const IndexOnePage = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link legacyBehavior  href="/blog-details">
+                    <Link href="/blog-details">
                       <a>Easy Ways to Incorporate Customer Feedback</a>
                     </Link>
                   </h4>

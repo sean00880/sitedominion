@@ -11,7 +11,7 @@ const index1dark = () => {
     <Fragment>
       <Head>
         {" "}
-        <Link legacyBehavior 
+        <link 
           rel="shortcut icon"
           href="assets/images/favicon1.png"
           type="image/x-icon"
