@@ -11,6 +11,7 @@ import React,{useEffect} from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // importing aos
 import AOS from 'aos';
+import Image from "next/image";
 import 'aos/dist/aos.css';
 
 const Index = () => {
@@ -23,7 +24,7 @@ const Index = () => {
         {" "}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon1.png"
+          href="/assets/images/favicon1.png"
           type="image/x-icon"
         />
       </Head>
@@ -42,9 +43,9 @@ const Index = () => {
               <div className="col-lg-5">
                 <div className="about-image-one bg-squire-shape rmb-85 delay-0-2s">
                   
-                  <img src="assets/images/about/about-one.png" alt="About us" data-aos="zoom-in" data-aos-duration="1000"/>
+                  <Image height={430} width={600} loading="lazy" src="/assets/images/about/about-one.png" alt="About us" data-aos="zoom-in" data-aos-duration="1000"/>
                   
-                  <img src="assets/images/about/about-three.png" alt="About us" data-aos="fade-left" data-aos-duration="1000" />
+                  <Image width={600} loading="lazy" height={430} src="/assets/images/about/about-three.png" alt="About us" data-aos="fade-left" data-aos-duration="1000" />
                   
 
                 </div>
@@ -62,7 +63,7 @@ const Index = () => {
                     <li >
                       <div className="content" data-aos="fade-up" data-aos-duration="1000">
                         
-                        <h4><img src="assets/images/mission.png" alt="" /> Our Mission</h4>
+                        <h4><Image width={50} height={50} loading="lazy" src="/assets/images/mission.png" alt="" /> Our Mission</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -73,7 +74,7 @@ const Index = () => {
                     
                     <li >
                       <div className="content" data-aos="fade-up" data-aos-duration="1000">
-                        <h4><img src="assets/images/vision.png" alt="" /> Our Vision</h4>
+                        <h4><Image width={50} height={50} loading="lazy" src="/assets/images/vision.png" alt="" /> Our Vision</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -83,7 +84,7 @@ const Index = () => {
                     </li>
                     <li >
                       <div className="content" data-aos="fade-up" data-aos-duration="1000">
-                        <h4><img src="assets/images/values.png" alt="" /> Our Values</h4>
+                        <h4><Image width={50} height={50} loading="lazy" src="/assets/images/values.png" alt="" /> Our Values</h4>
                         <p>
                           Sit amet consectetur adipiscing elit, sed eiusmod
                           tempor incididunt labore et dolore magna aliqua esuis
@@ -113,19 +114,19 @@ const Index = () => {
                     </div> 
                     <div data-aos="fade-left" data-aos-duration="1000">
                       
-                    <h3><img src="assets/images/custom.png" alt="" /> Custom Websites</h3>
+                    <h3><Image width="100px" height="100px" loading="lazy" src="/assets/images/custom.png" alt="" /> Custom Websites</h3>
                     <p>We have the knowledge and experience necessary to make your ideas a reality, whether you need a custom website, a web application, or a mobile app. We take the time to comprehend your business objectives and customize our solutions to match your particular requirements, ensuring that you receive the ideal outcomes.</p>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="1000">
-                    <h3><img src="assets/images/partner.png" alt="" />Collaboration</h3>
+                    <h3><Image width="100px" height="100px" loading="lazy" src="/assets/images/partner.png" alt="" />Collaboration</h3>
 <p>We at Site Dominion are firm believers in the value of teamwork. In order to ensure that our clients' vision is fulfilled and their expectations are met, we work closely with them throughout the whole development process. We develop websites that not only look amazing but also function well, with an emphasis on user experience, responsive design, and search engine optimization.</p>
 </div>
 <div data-aos="fade-left" data-aos-duration="1000">
-<h3><img src="assets/images/pricing.png" alt="" />Affordability</h3>
+<h3><Image width="100px" height="100px" loading="lazy" src="/assets/images/pricing.png" alt="" />Affordability</h3>
 <p>Compared to the average business website in the USA, which can cost anywhere from $2,000 to $10,000 or more, our prices are highly competitive. But we don't compromise on quality. Our team of expert developers uses the latest technologies and best practices to create websites that not only look great but also perform well.</p>
 </div>
 <div data-aos="fade-left" data-aos-duration="1000">
-<h3><img src="assets/images/value.png" alt="" />Value</h3>
+<h3><Image width="100px" height="100px" loading="lazy" src="/assets/images/value.png" alt="" />Value</h3>
 <p>So why pick us? Because we are committed to generating results that have a significant impact on your business and are passionate about what we do. To find out how we can assist you in achieving your online objectives, get in touch with us right away.</p>
 </div>
 
@@ -137,21 +138,21 @@ const Index = () => {
               <div className="col-lg-5">
                 <div className="statistics-three-image bg-squire-shape mb-30 delay-0-3s">
                 
-                  <img
-                    src="assets/images/about/main-img1.png"
+                  <Image width="420px" height="300px" loading="lazy"
+                    src="/assets/images/about/main-img1.png"
                     alt="Statictics"
                     data-aos="fade-right" data-aos-duration="1000"
                   />
                   
                   
-                  <img
-                    src="assets/images/about/phones.png"
+                  <Image width="420px" height="300px" loading="lazy"
+                    src="/assets/images/about/phones.png"
                     alt="Statictics"
                     data-aos="flip-left" data-aos-duration="1000"
                   />
                  
                   
-                  <img src="assets/images/about/about-two.png" alt="About us" data-aos="fade-right" data-aos-duration="1000" />
+                  <Image width="400px" height="300px" loading="lazy" src="/assets/images/about/about-two.png" alt="About us" data-aos="fade-right" data-aos-duration="1000" />
                   
 
                 </div>
@@ -215,14 +216,9 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="feature-middle rmt-30">
                   <div className="image wow fadeInUp delay-0-2s">
-                    <img
-                      className="circle-text"
-                      src="assets/images/shapes/feature-image-top.png"
-                      alt="Text"
-                    />
-                    <img
+                    <Image width="400px" height="400px" loading="lazy"
                       className="round"
-                      src="assets/images/features/feature-middle.png"
+                      src="/assets/images/features/feature-middle.png"
                       alt="Feature Middle"
                       data-aos="zoom-in-up" data-aos-duration="1000"
                     />
@@ -316,14 +312,14 @@ const Index = () => {
             </div>
           </div>
           <div className="design-feature-shapes">
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape dots"
-              src="assets/images/shapes/slider-dots.png"
+              src="/assets/images/shapes/slider-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape wave-line"
-              src="assets/images/shapes/feature-wave-line.png"
+              src="/assets/images/shapes/feature-wave-line.png"
               alt="Shape"
             />
           </div>
@@ -397,8 +393,8 @@ const Index = () => {
                 </div>
               </div>
               <div className="work-process-shape">
-                <img
-                  src="assets/images/shapes/worp-process-step.png"
+                <Image width="100px" height="100px" loading="lazy"
+                  src="/assets/images/shapes/worp-process-step.png"
                   alt="Shape"
                 />
               </div>
@@ -608,14 +604,14 @@ const Index = () => {
             </div>
           </div>
           <div className="pricing-shapes">
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape dots"
-              src="assets/images/shapes/pricing-bg-dots.png"
+              src="/assets/images/shapes/pricing-bg-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape wave"
-              src="assets/images/shapes/pricing-wave-line.png"
+              src="/assets/images/shapes/pricing-wave-line.png"
               alt="Shape"
             />
           </div>
@@ -757,14 +753,14 @@ const Index = () => {
             </div>
           </div>
           <div className="pricing-shapes">
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape dots"
-              src="assets/images/shapes/pricing-bg-dots.png"
+              src="/assets/images/shapes/pricing-bg-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape wave"
-              src="assets/images/shapes/pricing-wave-line.png"
+              src="/assets/images/shapes/pricing-wave-line.png"
               alt="Shape"
             />
           </div>
@@ -778,14 +774,14 @@ const Index = () => {
            
           </div>
           <div className="pricing-shapes">
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape dots"
-              src="assets/images/shapes/pricing-bg-dots.png"
+              src="/assets/images/shapes/pricing-bg-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape wave"
-              src="assets/images/shapes/pricing-wave-line.png"
+              src="/assets/images/shapes/pricing-wave-line.png"
               alt="Shape"
             />
           </div>
@@ -897,19 +893,19 @@ const Index = () => {
             </div>
           </div>
           <div className="contact-shapes">
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape circle"
-              src="assets/images/shapes/slider-dots.png"
+              src="/assets/images/shapes/slider-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape dots"
-              src="assets/images/shapes/contact-dots.png"
+              src="/assets/images/shapes/contact-dots.png"
               alt="Shape"
             />
-            <img
+            <Image width="100px" height="100px" loading="lazy"
               className="shape wave-line"
-              src="assets/images/shapes/contact-wave-line.png"
+              src="/assets/images/shapes/contact-wave-line.png"
               alt="Shape"
             />
           </div>
@@ -930,7 +926,7 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="blog-item wow fadeInUp delay-0-2s">
                   <div className="image">
-                    <img src="assets/images/blog/blog1.jpg" alt="Blog" />
+                    <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/blog1.jpg" alt="Blog" />
                   </div>
                   <div className="content">
                     <span className="date">
@@ -942,7 +938,7 @@ const Index = () => {
                       </Link>
                     </h4>
                     <div className="author">
-                      <img src="assets/images/blog/author1.jpg" alt="Author" />
+                      <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/author1.jpg" alt="Author" />
                       <div className="post-by">
                         <span>Post by</span>
                         <a href="#">Douglas B. Dickens</a>
@@ -954,7 +950,7 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="blog-item wow fadeInUp delay-0-4s">
                   <div className="image">
-                    <img src="assets/images/blog/blog2.jpg" alt="Blog" />
+                    <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/blog2.jpg" alt="Blog" />
                   </div>
                   <div className="content">
                     <span className="date">
@@ -966,7 +962,7 @@ const Index = () => {
                       </Link>
                     </h4>
                     <div className="author">
-                      <img src="assets/images/blog/author2.jpg" alt="Author" />
+                      <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/author2.jpg" alt="Author" />
                       <div className="post-by">
                         <span>Post by</span>
                         <a href="#">Carson C. Rhodes</a>
@@ -978,7 +974,7 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="blog-item wow fadeInUp delay-0-2s">
                   <div className="image">
-                    <img src="assets/images/blog/blog3.jpg" alt="Blog" />
+                    <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/blog3.jpg" alt="Blog" />
                   </div>
                   <div className="content">
                     <span className="date">
@@ -990,7 +986,7 @@ const Index = () => {
                       </Link>
                     </h4>
                     <div className="author">
-                      <img src="assets/images/blog/author3.jpg" alt="Author" />
+                      <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/author3.jpg" alt="Author" />
                       <div className="post-by">
                         <span>Post by</span>
                         <a href="#">Robert T. Evans</a>
@@ -1002,7 +998,7 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="blog-item wow fadeInUp delay-0-4s">
                   <div className="image">
-                    <img src="assets/images/blog/blog4.jpg" alt="Blog" />
+                    <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/blog4.jpg" alt="Blog" />
                   </div>
                   <div className="content">
                     <span className="date">
@@ -1014,7 +1010,7 @@ const Index = () => {
                       </Link>
                     </h4>
                     <div className="author">
-                      <img src="assets/images/blog/author4.jpg" alt="Author" />
+                      <Image width="100px" height="100px" loading="lazy" src="/assets/images/blog/author4.jpg" alt="Author" />
                       <div className="post-by">
                         <span>Post by</span>
                         <a href="#">Stanley J. Contreras</a>

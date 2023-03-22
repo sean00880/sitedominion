@@ -6211,6 +6211,9 @@ h6, .h6 {
         -ms-transform: rotate(50deg) translate(66px, -44px);
         transform: rotate(50deg) translate(66px, -44px); } }
 
+        .pricing-shapes{
+          display: none;
+        }
 .pricing-shapes .shape {
   z-index: -1;
   position: absolute; }

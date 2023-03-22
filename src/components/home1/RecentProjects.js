@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Slider from "react-slick";
 import { projectThreeActive } from "../../sliderProps";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -18,8 +19,8 @@ const RecentProjects = () => {
       <Slider {...projectThreeActive} className="project-three-active">
         <div className="project-item style-two wow fadeInUp delay-0-2s">
           <div className="project-iamge">
-            <img
-              src="assets/images/projects/project-three1.png"
+            <Image loading="lazy" width={480} height={225}
+              src="/assets/images/projects/project-three1.png"
               alt="Project"
             />
             <div className="project-over">
@@ -39,8 +40,8 @@ const RecentProjects = () => {
         </div>
         <div className="project-item style-two wow fadeInUp delay-0-4s">
           <div className="project-iamge">
-            <img
-              src="assets/images/projects/project-three2.png"
+            <Image loading="lazy" width={480} height={225}
+              src="/assets/images/projects/project-three2.png"
               alt="Project"
             />
             <div className="project-over">
@@ -60,8 +61,8 @@ const RecentProjects = () => {
         </div>
         <div className="project-item style-two wow fadeInUp delay-0-6s">
           <div className="project-iamge">
-            <img
-              src="assets/images/projects/project-three3.png"
+            <Image loading="lazy" width={480} height={225}
+              src="/assets/images/projects/project-three3.png"
               alt="Project"
             />
             <div className="project-over">
@@ -81,8 +82,8 @@ const RecentProjects = () => {
         </div>
         <div className="project-item style-two wow fadeInUp delay-0-8s">
           <div className="project-iamge">
-            <img
-              src="assets/images/projects/project-three2.png"
+            <Image loading="lazy" width={480} height={225}
+              src="/assets/images/projects/project-three2.png"
               alt="Project"
             />
             <div className="project-over">
