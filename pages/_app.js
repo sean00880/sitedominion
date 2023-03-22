@@ -3,6 +3,7 @@ import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
 import '../styles/boxicons.min.css';
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
@@ -31,11 +32,15 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Smooch Sans:wght@400;500;600&family=Kumbh+Sans:wght@400;500;700&family=Shadows+Into+Light&display=swap"
           rel="stylesheet"
         />
-
-        {/* Font Awesome */}
-        <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" />
-        {/* Bootstrap */}
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <Script
+          src="assets/css/fontawesome-5.14.0.min.css"
+          strategy="beforeInteractive"
+        />
+        <Script
+          src="assets/css/bootstrap.min.css"
+          strategy="beforeInteractive"
+        />
+      
         {/* Magnific Popup */}
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
         {/* Nice Select */}
