@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
-import '../styles/boxicons.min.css';
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
@@ -28,16 +27,14 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Smooch Sans:wght@400;500;600&family=Kumbh+Sans:wght@400;500;700&family=Shadows+Into+Light&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600&family=Kumbh+Sans:wght@400;500;700&family=Shadows+Into+Light&display=swap"
           rel="stylesheet"
         />
-        <link rel="preload" href="assets/css/fontawesome-5.14.0.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"></link>
-        <noscript><link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css"/></noscript>
 
-        <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-        <noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"/></noscript>
-
-       
+        {/* Font Awesome */}
+        <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" />
+        {/* Bootstrap */}
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         {/* Magnific Popup */}
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
         {/* Nice Select */}
