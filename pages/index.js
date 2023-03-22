@@ -6,11 +6,6 @@ import ClientsFeedback from "../src/components/home1/ClientsFeedback";
 import Hero1 from "../src/components/home1/Hero1";
 import RecentProjects from "../src/components/home1/RecentProjects";
 import Layout from "../src/layout/Layout";
-import Zoom from "react-reveal/Zoom";
-import Flip from "react-reveal/Flip";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
-import config from 'react-reveal/globals';
 import { Icon } from '@iconify/react';
 import React,{useEffect} from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -18,7 +13,6 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-config({ ssrFadeout: true });
 const Index = () => {
   useEffect(() => {
     AOS.init();
