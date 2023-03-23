@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" defer/>
         {/* Main Style */}
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" defer />
       {load && <PreLoader />}
       <Component {...pageProps} />
     </Fragment>
