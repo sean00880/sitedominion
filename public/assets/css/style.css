@@ -4481,11 +4481,15 @@ h6, .h6 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin-left: 50px;
-  margin-right: 50px;
   z-index: 1;
   position: relative;
-  max-width: calc(100% - 100px); }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 100px); 
+  justify-self: center;
+  align-items: center;
+}
   .bg-squire-shape::before {
     position: absolute;
     content: "";
@@ -6131,6 +6135,7 @@ h6, .h6 {
     border-radius: 0;
     text-align: center;
     text-transform: uppercase;
+    color:white;
     background: #b94245;
     padding: 15px 20px 12px 40px;
     opacity: 1;
