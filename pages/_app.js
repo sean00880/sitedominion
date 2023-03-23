@@ -32,24 +32,15 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
-<link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-          crossOrigin="anonymous"
-        />
+
 
         {/* Font Awesome */}
        
       </Head>
-      <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossOrigin="anonymous" strategy="lazyOnload"
-      />
+      
       <link href="assets/css/fontawesome-5.14.0.min.css" rel="stylesheet" />
         {/* Bootstrap */}
-        
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" defer  />
         {/* Magnific Popup */}
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" defer  />
         {/* Nice Select */}
