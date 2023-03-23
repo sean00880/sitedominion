@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Slider from "react-slick";
 
+export const config = { unstable_runtimeJS:false}
+
 const Hero1 = () => {
   const props = {
     infinite: true,

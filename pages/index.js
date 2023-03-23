@@ -1,11 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Fragment } from "react";
-import Counter from "../src/components/Counter";
-import ClientsFeedback from "../src/components/home1/ClientsFeedback";
-import Hero1 from "../src/components/home1/Hero1";
-import RecentProjects from "../src/components/home1/RecentProjects";
-import Layout from "../src/layout/Layout";
 import { Icon } from '@iconify/react';
 import React,{useEffect} from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -13,8 +8,13 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import AOS from 'aos';
 import Image from "next/image";
 import 'aos/dist/aos.css';
+import dynamic from "next/dynamic";
+const Hero1 = dynamic(() => import( '../src/components/home1/Hero1'));
+const Counter = dynamic(() => import( '../src/components/Counter'));
+const ClientsFeedback = dynamic(() => import( '../src/components/home1/ClientsFeedback'));
+const Layout = dynamic(() => import( '../src/layout/Layout'));
+const RecentProjects = dynamic(() => import( '../src/components/home1/RecentProjects'));
 
-export const config = { unstable_runtimeJS:false}
 
 const Index = () => {
   useEffect(() => {
