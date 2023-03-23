@@ -12,6 +12,7 @@
     "@fontsource/smooch-sans": "^4.5.9",
     "aos": "^2.3.4",
     "boxicons": "^2.1.4",
+    "critters": "^0.0.7",
     "isotope-layout": "^3.0.6",
     "next": "12.3.1",
     "react": "18.2.0",
