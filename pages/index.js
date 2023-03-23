@@ -14,6 +14,8 @@ import AOS from 'aos';
 import Image from "next/image";
 import 'aos/dist/aos.css';
 
+export const config = { unstable_runtimeJS:false}
+
 const Index = () => {
   useEffect(() => {
     AOS.init();
