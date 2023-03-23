@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/kumbh-sans": "^4.5.12",
+    "@fontsource/merriweather": "^4.5.14",
+    "@fontsource/roboto": "^4.5.8",
     "@fontsource/smooch-sans": "^4.5.9",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "aos": "^2.3.4",

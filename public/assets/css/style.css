@@ -44,6 +44,10 @@
 /*******************************************************/
 
 @import "@fontsource/smooch-sans";
+@import "@fontsource/roboto";
+@import "@fontsource/kumbh-sans";
+@import "@fontsource/merriweather";
+
 
 * {
   margin: 0;
