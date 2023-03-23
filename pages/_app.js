@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
@@ -35,7 +36,7 @@ function MyApp({ Component, pageProps }) {
        
       </Head>
 
-      <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" defer/>
+      <link href="assets/css/fontawesome-5.14.0.min.css" rel="stylesheet" />
         {/* Bootstrap */}
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" defer/>
         {/* Magnific Popup */}
