@@ -42,16 +42,14 @@
 /*******************************************************/
 /******************* 01. Default Style *****************/
 /*******************************************************/
-
-@import "@fontsource/smooch-sans";
-
-* {
+@import "@fontsource/smooch-sans"; @import "@fontsource/roboto"; @import "@fontsource/kumbh-sans"; @import "@fontsource/merriweather"; * {
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none; }
+  box-shadow: none;
+}
 
 /*======= Input Styles =======*/
 
@@ -130,400 +128,17 @@
 
 /* Padding Bottom */
 
-/* Margin Around */
+
 
 /* Margin Top */
 
 /* Margin Bottom */
-
-/* Responsive Padding Margin */
-@media only screen and (max-width: 991px) {
-  /* Padding Around */
-  /* Padding Top */
-  /* Padding Bottom */
-  /* Margin Around */
-  /* Margin Top */
-  /* Margin Bottom */ }
 
 /*******************************************************/
 /***************** 05. Custom Animation ****************/
 /*******************************************************/
 /* Animation Delay */
 
-/* Menu Sticky */
-@-webkit-keyframes sticky {
-  0% {
-    top: -100px; }
-  100% {
-    top: 0; } }
-
-@keyframes sticky {
-  0% {
-    top: -100px; }
-  100% {
-    top: 0; } }
-
-/* Hero Circle */
-@-webkit-keyframes rotated_circle {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes rotated_circle {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
-/* Feedback Rotated */
-@-webkit-keyframes semi_rotated {
-  0%,
-  100% {
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg); }
-  50% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg); } }
-@keyframes semi_rotated {
-  0%,
-  100% {
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg); }
-  50% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg); } }
-
-/* Image BG Rotated */
-@-webkit-keyframes semi_rotated_two {
-  0%,
-  100% {
-    -webkit-transform: rotate(-11deg);
-    transform: rotate(-11deg); }
-  50% {
-    -webkit-transform: rotate(11deg);
-    transform: rotate(11deg); } }
-@keyframes semi_rotated_two {
-  0%,
-  100% {
-    -webkit-transform: rotate(-11deg);
-    transform: rotate(-11deg); }
-  50% {
-    -webkit-transform: rotate(11deg);
-    transform: rotate(11deg); } }
-
-@-webkit-keyframes move_arround {
-  0% {
-    top: 20px;
-    left: 20px; }
-  25% {
-    top: 20px;
-    left: -20px; }
-  50% {
-    top: -20px;
-    left: -20px; }
-  75% {
-    top: -20px;
-    left: 20px; }
-  100% {
-    top: 20px;
-    left: 20px; } }
-
-@keyframes move_arround {
-  0% {
-    top: 20px;
-    left: 20px; }
-  25% {
-    top: 20px;
-    left: -20px; }
-  50% {
-    top: -20px;
-    left: -20px; }
-  75% {
-    top: -20px;
-    left: 20px; }
-  100% {
-    top: 20px;
-    left: 20px; } }
-
-/* Hero Circle */
-@-webkit-keyframes upDownLeft {
-  0%,
-  100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px); }
-  25%,
-  75% {
-    -webkit-transform: translate(0px, 50px);
-    transform: translate(0px, 50px); }
-  50% {
-    -webkit-transform: translate(-50px, 50px);
-    transform: translate(-50px, 50px); } }
-@keyframes upDownLeft {
-  0%,
-  100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px); }
-  25%,
-  75% {
-    -webkit-transform: translate(0px, 50px);
-    transform: translate(0px, 50px); }
-  50% {
-    -webkit-transform: translate(-50px, 50px);
-    transform: translate(-50px, 50px); } }
-
-@-webkit-keyframes shapeAnimationOne {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(0px, 150px) rotate(90deg);
-    transform: translate(0px, 150px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(150px, 150px) rotate(180deg);
-    transform: translate(150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(150px, 0px) rotate(270deg);
-    transform: translate(150px, 0px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@keyframes shapeAnimationOne {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(0px, 150px) rotate(90deg);
-    transform: translate(0px, 150px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(150px, 150px) rotate(180deg);
-    transform: translate(150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(150px, 0px) rotate(270deg);
-    transform: translate(150px, 0px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@-webkit-keyframes shapeAnimationTwo {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-150px, 0px) rotate(270deg);
-    transform: translate(-150px, 0px) rotate(270deg); }
-  50% {
-    -webkit-transform: translate(-150px, 150px) rotate(180deg);
-    transform: translate(-150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(0px, 150px) rotate(90deg);
-    transform: translate(0px, 150px) rotate(90deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@keyframes shapeAnimationTwo {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-150px, 0px) rotate(270deg);
-    transform: translate(-150px, 0px) rotate(270deg); }
-  50% {
-    -webkit-transform: translate(-150px, 150px) rotate(180deg);
-    transform: translate(-150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(0px, 150px) rotate(90deg);
-    transform: translate(0px, 150px) rotate(90deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@-webkit-keyframes shapeAnimationThree {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(50px, 150px) rotate(90deg);
-    transform: translate(50px, 150px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(150px, 150px) rotate(180deg);
-    transform: translate(150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(150px, 50px) rotate(270deg);
-    transform: translate(150px, 50px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@keyframes shapeAnimationThree {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(50px, 150px) rotate(90deg);
-    transform: translate(50px, 150px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(150px, 150px) rotate(180deg);
-    transform: translate(150px, 150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(150px, 50px) rotate(270deg);
-    transform: translate(150px, 50px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@-webkit-keyframes shapeAnimationFour {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-150px -50px) rotate(90deg);
-    transform: translate(-150px -50px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(-150px, -150px) rotate(180deg);
-    transform: translate(-150px, -150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(-50px, -150px) rotate(270deg);
-    transform: translate(-50px, -150px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@keyframes shapeAnimationFour {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-150px -50px) rotate(90deg);
-    transform: translate(-150px -50px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(-150px, -150px) rotate(180deg);
-    transform: translate(-150px, -150px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(-50px, -150px) rotate(270deg);
-    transform: translate(-50px, -150px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@-webkit-keyframes shapeAnimationFive {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-100px -100px) rotate(90deg);
-    transform: translate(-100px -100px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(100px, 50px) rotate(180deg);
-    transform: translate(100px, 50px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(-100px, 150px) rotate(270deg);
-    transform: translate(-100px, 150px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@keyframes shapeAnimationFive {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg); }
-  25% {
-    -webkit-transform: translate(-100px -100px) rotate(90deg);
-    transform: translate(-100px -100px) rotate(90deg); }
-  50% {
-    -webkit-transform: translate(100px, 50px) rotate(180deg);
-    transform: translate(100px, 50px) rotate(180deg); }
-  75% {
-    -webkit-transform: translate(-100px, 150px) rotate(270deg);
-    transform: translate(-100px, 150px) rotate(270deg); }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(360deg);
-    transform: translate(0px, 0px) rotate(360deg); } }
-
-@-webkit-keyframes down-up-one {
-  0% {
-    -webkit-transform: rotateX(0deg) translateY(0px);
-    transform: rotateX(0deg) translateY(0px); }
-  50% {
-    -webkit-transform: rotateX(0deg) translateY(25px);
-    transform: rotateX(0deg) translateY(25px); }
-  100% {
-    -webkit-transform: rotateX(0deg) translateY(0px);
-    transform: rotateX(0deg) translateY(0px); } }
-
-@keyframes down-up-one {
-  0% {
-    -webkit-transform: rotateX(0deg) translateY(0px);
-    transform: rotateX(0deg) translateY(0px); }
-  50% {
-    -webkit-transform: rotateX(0deg) translateY(25px);
-    transform: rotateX(0deg) translateY(25px); }
-  100% {
-    -webkit-transform: rotateX(0deg) translateY(0px);
-    transform: rotateX(0deg) translateY(0px); } }
-
-@-webkit-keyframes down-up-two {
-  0% {
-    -webkit-transform: rotateX(0deg) translate(0px);
-    transform: rotateX(0deg) translate(0px); }
-  50% {
-    -webkit-transform: rotateX(0deg) translate(25px, -25px);
-    transform: rotateX(0deg) translate(25px, -25px); }
-  100% {
-    -webkit-transform: rotateX(0deg) translate(0px);
-    transform: rotateX(0deg) translate(0px); } }
-
-@keyframes down-up-two {
-  0% {
-    -webkit-transform: rotateX(0deg) translate(0px);
-    transform: rotateX(0deg) translate(0px); }
-  50% {
-    -webkit-transform: rotateX(0deg) translate(25px, -25px);
-    transform: rotateX(0deg) translate(25px, -25px); }
-  100% {
-    -webkit-transform: rotateX(0deg) translate(0px);
-    transform: rotateX(0deg) translate(0px); } }
-
-@-webkit-keyframes leftRightOne {
-  0%,
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  50% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px); } }
-
-@keyframes leftRightOne {
-  0%,
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); }
-  50% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px); } }
-
-@-webkit-keyframes zoomInOut {
-  0%,
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5); } }
-
-@keyframes zoomInOut {
-  0%,
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5); } }
 
 /*******************************************************/
 /******************* 06. Header style ******************/
@@ -549,13 +164,10 @@
 /******************** 07. Hero Area ********************/
 /*******************************************************/
 
-/* Hero Three */
 
 /*******************************************************/
 /******************* 08. Page Banner *******************/
 /*******************************************************/
-
-/* Banner Shapes */
 
 /*******************************************************/
 /******************* 09. Main Slider *******************/
@@ -569,43 +181,10 @@
 
 /* Why Choose Us */
 
-/* Why Choose Us Two */
-
-/* What We Do */
-
-/* What We Do Two */
-
-/* What We Offer */
-
-/* Responsive Design */
-
-/* Support & Marketing */
-
-/*******************************************************/
-/****************** 11. Counter Area *******************/
-/*******************************************************/
-
-/* Statistics Two */
-
-/* Statistics Three */
-
-/* Statistics Four */
-
-/* Statistics Five */
 
 /*******************************************************/
 /****************** 12. Features Area ******************/
 /*******************************************************/
-
-/* Feature Two */
-
-/* Feature Three */
-
-/* Feature With Image */
-
-/* Feature Four */
-
-/* Feature Five */
 
 /* Core Design Featured */
 
@@ -639,11 +218,6 @@
 /******************** 15. Team Area ********************/
 /*******************************************************/
 
-/* Team Slider */
-
-/* Team Filter */
-
-/* Team Profile */
 
 /*******************************************************/
 /****************** 16. Pricing Area *******************/
@@ -677,57 +251,10 @@
 
 /* Contact Page */
 
-/* Our Location */
-
-/* Google Map */
-
 /*******************************************************/
 /******************** 21. Blog Area ********************/
 /*******************************************************/
 
-/* Blog Grid */
-
-/* Blog List */
-
-/* Blog Details */
-
-/* Comments */
-
-/* Next Prev Post */
-
-/* Comment Form */
-
-/*******************************************************/
-/****************** 22. Video Section ******************/
-/*******************************************************/
-
-/*******************************************************/
-/******************* 23. FAQs Area *********************/
-/*******************************************************/
-
-/* FAQ Page */
-
-/*******************************************************/
-/******************** 24. Shop Area ********************/
-/*******************************************************/
-
-/* Product Details */
-
-/* Cart Page */
-
-/* Checkout Page */
-
-/*******************************************************/
-/***************** 25. Sidebar Widgets *****************/
-/*******************************************************/
-
-/*******************************************************/
-/***************** 26. 404 Error Area ******************/
-/*******************************************************/
-
-/*******************************************************/
-/******************* 27. Main Footer *******************/
-/*******************************************************/
 
 /* Footer Widgets */
 
