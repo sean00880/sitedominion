@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
         {/* Type Writer */}
         <link rel="stylesheet" href="assets/css/jquery.animatedheadline.css" defer />
         {/* Animate */}
-        <link rel="stylesheet" href="assets/css/animate.min.css" defer/>
+        
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" defer/>
         {/* Main Style */}
