@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
+import "../public/assets/css/style.css";
 import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
@@ -52,8 +53,7 @@ function MyApp({ Component, pageProps }) {
         {/* Slick */}
         <link rel="stylesheet" href="assets/css/slick.min.css" defer/>
         {/* Main Style */}
-        
-        <link rel="stylesheet" href="assets/css/style.min.css" />
+        -
       
       <Component {...pageProps} />
     </Fragment>
