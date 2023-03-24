@@ -59,7 +59,7 @@ const ProjectsDetails = () => {
                                 
           <p>Site Dominion has been commissioned to develop a website for Metanetic, a social media marketing agency that provides web development, graphic design, and digital marketing as their primary services. The website will be developed using Next JS, a popular React framework that provides an efficient and scalable solution for building complex web applications. The website will serve as a central platform for Metanetic to showcase their services, portfolio, and expertise to potential clients and partners.</p>
 <h3>Project Goals</h3>
-<p>The primary goal of the project is to create a visually appealing and user-friendly website that effectively communicates Metanetic's services, brand identity, and values. The website should also be responsive and optimized for search engines, ensuring that potential clients can easily find and access Metanetic's services. Additionally, the website should be built with scalability in mind, allowing for future expansion and updates as the company grows.</p>
+<p>The primary goal of the project is to create a visually appealing and user-friendly website that effectively communicates Metanetic&apos;s services, brand identity, and values. The website should also be responsive and optimized for search engines, ensuring that potential clients can easily find and access Metanetic&apos;s services. Additionally, the website should be built with scalability in mind, allowing for future expansion and updates as the company grows.</p>
 <h3>Key Features</h3>
 <p>The Metanetic website will include the following key features:</p>
 <ul>

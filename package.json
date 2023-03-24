@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "dependencies": {
     "@fontsource/kumbh-sans": "^4.5.12",
@@ -14,10 +17,12 @@
     "@fontsource/roboto": "^4.5.8",
     "@fontsource/smooch-sans": "^4.5.9",
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@next/bundle-analyzer": "^13.2.4",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
     "critters": "^0.0.7",
+    "cross-env": "^7.0.3",
     "isotope-layout": "^3.0.6",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -33,8 +38,11 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.1.0",
+    "@zeit/next-css": "^1.0.1",
+    "compression-webpack-plugin": "^10.0.0",
     "cssnano": "^5.1.15",
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "next-purgecss": "^4.0.0"
   }
 }

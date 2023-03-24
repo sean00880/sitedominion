@@ -33,7 +33,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link legacyBehavior  href="/grandpa-rons">Grandpa Ron's LLC</Link>
+              <Link legacyBehavior  href="/grandpa-rons">Grandpa Ron&apos;s LLC</Link>
             </h4>
             <span className="category">Landscaping Business</span>
           </div>
