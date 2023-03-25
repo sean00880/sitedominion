@@ -1,12 +1,13 @@
 import { Fragment, useEffect } from "react";
+import dynamic from "next/dynamic";
 import niceSelect from "react-nice-select";
-import CallToAction from "../components/CallToAction";
-import ImageView from "../components/ImageView";
-import VideoPopup from "../components/VideoPopup";
-import { animation, stickyNav } from "../utils";
-import Footer from "./Footer";
-import Header from "./Header";
-import ScrollTop from "./ScrollTop";
+const CallToAction = dynamic(() => import( '../components/CallToAction'));
+const ImageView = dynamic(() => import( '../components/ImageView'));
+const VideoPopup = dynamic(() => import( '../components/VideoPopup'));
+const { animation, stickyNav } = dynamic(() => import( '../utils'));
+const Footer = dynamic(() => import( './Footer'));
+const Header = dynamic(() => import( './Header'));
+const ScrollTop = dynamic(() => import( './ScrollTop'));
 import SideBar from "./SideBar";
 
 const Layout = ({ children, header, className, footer, noHeader }) => {
