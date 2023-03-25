@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Slider from "react-slick";
-import dynamic from "next/dynamic";
-const{ projectThreeActive } = dynamic(() => import( '../../sliderProps'));
+import { projectThreeActive } from "../../sliderProps";
 import Image from "next/image";
 
 const RecentProjects = () => {
