@@ -16,7 +16,7 @@ const ClientsFeedback = dynamic(() => import( '../src/components/home1/ClientsFe
 const Layout = dynamic(() => import( '../src/layout/Layout'));
 const RecentProjects = dynamic(() => import( '../src/components/home1/RecentProjects'));
 
-export const config = { unstable_runtimeJS:false}
+
 
 
 const Index = () => {

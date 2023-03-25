@@ -10,6 +10,8 @@ const Header = dynamic(() => import( './Header'));
 const ScrollTop = dynamic(() => import( './ScrollTop'));
 import SideBar from "./SideBar";
 
+export const config = { unstable_runtimeJS:false}
+
 const Layout = ({ children, header, className, footer, noHeader }) => {
   useEffect(() => {
     animation();
