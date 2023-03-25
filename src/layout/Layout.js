@@ -4,7 +4,7 @@ import niceSelect from "react-nice-select";
 const CallToAction = dynamic(() => import( '../components/CallToAction'));
 const ImageView = dynamic(() => import( '../components/ImageView'));
 const VideoPopup = dynamic(() => import( '../components/VideoPopup'));
-const { animation, stickyNav } = dynamic(() => import( '../utils'));
+import { animation, stickyNav } from "../utils";
 const Footer = dynamic(() => import( './Footer'));
 const Header = dynamic(() => import( './Header'));
 const ScrollTop = dynamic(() => import( './ScrollTop'));
