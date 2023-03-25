@@ -1,5 +1,7 @@
 import { Component, Fragment } from "react";
-import Slider from "react-slick";
+import dynamic from "next/dynamic";
+const Slider = dynamic(() => import( 'react-slick'));
+
 import Image from "next/image";
 export default class ClientsFeedback extends Component {
   constructor(props) {
@@ -63,9 +65,9 @@ export default class ClientsFeedback extends Component {
             >
               <div className="testimonial-item-two wow fadeInUp delay-0-2s">
                 <div className="testimonial-author">
-                  <Image
+                  <img
                     src="/assets/images/feedback/testimonial1.jpg"
-                    alt="Author" height={150} width={150}
+                    alt="Author"
                   />
                 </div>
                 <div className="testimonial-content">

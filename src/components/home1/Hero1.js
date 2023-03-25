@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Slider from "react-slick";
-
+import dynamic from "next/dynamic";
+const Slider = dynamic(() => import( 'react-slick'));
 
 export const config = { unstable_runtimeJS:false}
 
@@ -65,7 +65,7 @@ const Hero1 = () => {
           </div>
         </div>
         <div className="slider-item">
-          <div className="container">
+          <div className="container" style={{width:"100%",maxWidth:"100%"}}>
             <div className="slider-content">
               <span className="sub-title">
                 Leading Agency
@@ -107,7 +107,7 @@ const Hero1 = () => {
           </div>
         </div>
         <div className="slider-item">
-          <div className="container">
+          <div className="container" style={{width:"100%",maxWidth:"100%"}}>
             <div className="slider-content">
               <span className="sub-title">
                 25 Years of Experience in web design solutions

@@ -6,6 +6,7 @@ import React,{useEffect} from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // importing aos
 import AOS from 'aos';
+
 import Image from "next/image";
 import 'aos/dist/aos.css';
 import dynamic from "next/dynamic";
@@ -14,6 +15,8 @@ const Counter = dynamic(() => import( '../src/components/Counter'));
 const ClientsFeedback = dynamic(() => import( '../src/components/home1/ClientsFeedback'));
 const Layout = dynamic(() => import( '../src/layout/Layout'));
 const RecentProjects = dynamic(() => import( '../src/components/home1/RecentProjects'));
+
+export const config = { unstable_runtimeJS:false}
 
 
 const Index = () => {

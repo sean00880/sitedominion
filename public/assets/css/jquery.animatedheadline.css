@@ -705,6 +705,7 @@
     opacity: 0;
     font-size: 23px;
     color:rgb(223, 223, 223);
+    display: none;
 }
 .cd-headline.clip b.is-visible {
     opacity: 1;
