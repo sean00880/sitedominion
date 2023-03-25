@@ -3496,6 +3496,10 @@ h6, .h6 {
   background: #16161c;
 }
 
+.service-item.style-three:hover {
+  transform:scale(1.1);
+}
+
 .service-item.style-three .icon {
   font-size: 70px;
   margin-bottom: 22px;

@@ -11,11 +11,11 @@ import Image from "next/image";
 import 'aos/dist/aos.css';
 import dynamic from "next/dynamic";
 const Hero1 = dynamic(() => import( '../src/components/home1/Hero1'));
+const Pricing = dynamic(() => import( '../src/components/home1/Pricing'));
 const Counter = dynamic(() => import( '../src/components/Counter'));
 const ClientsFeedback = dynamic(() => import( '../src/components/home1/ClientsFeedback'));
 const Layout = dynamic(() => import( '../src/layout/Layout'));
 const RecentProjects = dynamic(() => import( '../src/components/home1/RecentProjects'));
-
 
 
 
@@ -178,7 +178,7 @@ const Index = () => {
                 <div className="feature-left">
                   <div className="row">
                     <div className="col-lg-12 col-sm-6">
-                      <div className="service-item style-three wow fadeInRight delay-0-2s">
+                      <div className="service-item style-three wow fadeInRight delay-0-2s" data-aos="fade-left" data-aos-duration="1000">
                         <div className="icon">
                           <i className="flaticon-design" />
                         </div>
@@ -197,7 +197,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="col-lg-12 col-sm-6">
-                      <div className="service-item style-three wow fadeInRight delay-0-3s">
+                      <div className="service-item style-three wow fadeInRight delay-0-3s" data-aos="fade-up-left" data-aos-duration="1000">
                         <div className="icon">
                           <i className="flaticon-web-page" />
                         </div>
@@ -230,7 +230,7 @@ const Index = () => {
                   </div>
                   <div className="row">
                     <div className="col-sm-6">
-                      <div className="service-item style-three mt-30 wow fadeInUp delay-0-3s">
+                      <div className="service-item style-three mt-30 wow fadeInUp delay-0-3s" data-aos="fade-up" data-aos-duration="500">
                         <div className="icon">
                           <i className="flaticon-online" />
                         </div>
@@ -249,7 +249,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="col-sm-6">
-                      <div className="service-item style-three mt-30 wow fadeInUp delay-0-4s">
+                      <div className="service-item style-three mt-30 wow fadeInUp delay-0-4s" data-aos="fade-up" data-aos-duration="500">
                         <div className="icon">
                           <i className="flaticon-web-programming" />
                         </div>
@@ -274,7 +274,7 @@ const Index = () => {
                 <div className="feature-right">
                   <div className="row">
                     <div className="col-lg-12 col-sm-6">
-                      <div className="service-item style-three mt-100 wow fadeInLeft delay-0-2s">
+                      <div className="service-item style-three" data-aos="fade-left" data-aos-duration="1000">
                         <div className="icon">
                           <i className="flaticon-graphic-design" />
                         </div>
@@ -293,7 +293,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="col-lg-12 col-sm-6">
-                      <div className="service-item style-three wow fadeInLeft delay-0-3s">
+                      <div className="service-item style-three" data-aos="fade-up-left" data-aos-duration="1000">
                         <div className="icon">
                           <i className="flaticon-user-experience" />
                         </div>
