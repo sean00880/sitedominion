@@ -1,5 +1,6 @@
 import { Component, Fragment } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 export default class ClientsFeedback extends Component {
   constructor(props) {
     super(props);
@@ -62,9 +63,9 @@ export default class ClientsFeedback extends Component {
             >
               <div className="testimonial-item-two wow fadeInUp delay-0-2s">
                 <div className="testimonial-author">
-                  <img
-                    src="assets/images/feedback/testimonial1.jpg"
-                    alt="Author"
+                  <Image
+                    src="/assets/images/feedback/testimonial1.jpg"
+                    alt="Author" height={150} width={150}
                   />
                 </div>
                 <div className="testimonial-content">
@@ -99,9 +100,9 @@ export default class ClientsFeedback extends Component {
               </div>
               <div className="testimonial-item-two wow fadeInUp delay-0-2s">
                 <div className="testimonial-author">
-                  <img
-                    src="assets/images/feedback/testimonial1.jpg"
-                    alt="Author"
+                  <Image
+                    src="/assets/images/feedback/testimonial1.jpg"
+                    alt="Author" height={150} width={150}
                   />
                 </div>
                 <div className="testimonial-content">

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faTwitter, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -33,16 +35,16 @@ const Footer1 = () => (
             </p>
             <div className="social-style-two pt-5">
               <a href="#">
-                <i className="fab fa-facebook-f" />
+                <FontAwesomeIcon icon={faFacebook}/>
               </a>
               <a href="#">
-                <i className="fab fa-twitter" />
+              <FontAwesomeIcon icon={faTwitter}/>
               </a>
               <a href="#">
-                <i className="fab fa-linkedin-in" />
+              <FontAwesomeIcon icon={faLinkedin}/>
               </a>
               <a href="#">
-                <i className="fab fa-behance" />
+              <FontAwesomeIcon icon={faMedium}/>
               </a>
             </div>
           </div>

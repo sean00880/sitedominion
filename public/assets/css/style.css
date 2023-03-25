@@ -704,6 +704,14 @@ html {
   color: #0066ff;
   -webkit-box-shadow: 10px 0 30px rgba(175, 175, 175, 0.3);
   box-shadow: 10px 0 30px rgba(175, 175, 175, 0.3);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-style-two a svg{
+  width: 30px;
+  height: 30px;
 }
 
 .social-style-two a:hover {
