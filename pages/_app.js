@@ -16,15 +16,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Oxence - Web Design Company React NextJS Template</title>
+        <title>Site Dominion - Web Development Services</title>
         <link
           rel="shortcut icon"
           href="assets/images/favicon.png"
           type="image/x-icon"
         />
         <link rel="stylesheet" href="assets/css/flaticon.min.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
-<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer/>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
         <link
           href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Merriweather:wght@700&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
