@@ -48,7 +48,6 @@ function MyApp({ Component, pageProps }) {
         {/* Nice Select */}
         <link rel="stylesheet" href="assets/css/nice-select.min.css" defer/>
         {/* Type Writer */}
-        <link rel="stylesheet" href="assets/css/jquery.animatedheadline.css" defer />
         {/* Animate */}
         
         {/* Slick */}

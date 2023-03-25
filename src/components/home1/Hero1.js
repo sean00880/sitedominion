@@ -59,7 +59,7 @@ const Hero1 = () => {
             <span className="video-title cd-headline clip">
               <span className="cd-words-wrapper">
                 <b className="is-visible">Web Development</b>
-                <b>Development</b>
+                
               </span>
             </span>
           </div>
@@ -101,7 +101,7 @@ const Hero1 = () => {
             <span className="video-title cd-headline clip">
               <span className="cd-words-wrapper">
                 <b className="is-visible">All Industries</b>
-                <b>Development</b>
+                
               </span>
             </span>
           </div>
@@ -142,7 +142,7 @@ const Hero1 = () => {
             <span className="video-title cd-headline clip">
               <span className="cd-words-wrapper">
                 <b className="is-visible">Search Engine Optimized</b>
-                <b>Development</b>
+                
               </span>
             </span>
           </div>
